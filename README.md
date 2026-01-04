@@ -4,16 +4,19 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hemant%20Sudarshan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20RAG%20Specialist&descAlignY=52&descSize=18"/>
 
   <!-- Dynamic Roles -->
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=🚀+Building+Production-Ready+AI+Systems;🎯+99.2%25+Accuracy+in+RAG+Systems;⚡+<500ms+API+Response+Times)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+Production-Ready+AI+Systems;99.2%25+Accuracy+in+RAG+Systems;Sub-500ms+API+Response+Times)
 
 </div>
 
 <div align="center">
   
-  [![Open to Work](https://img.shields.io/badge/🎯_Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
+  ![Profile Views](https://komarev.com/ghpvc/?username=HemantSudarshan&color=6C63FF&style=flat-square&label=Profile+Views)
+  [![GitHub followers](https://img.shields.io/github/followers/HemantSudarshan?label=Followers&style=social)](https://github.com/HemantSudarshan)
+  
+  [![Open to Work](https://img.shields.io/badge/Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
-  [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Profile-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
-  [![Email](https://img.shields.io/badge/📧_Email-Contact-EA4335?style=for-the-badge)](mailto:hemantsudarshan@gmail.com)
+  [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Profile-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Hemantxai)
+  [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
 
 </div>
 
@@ -65,21 +68,44 @@ if __name__ == "__hiring__":
 
 ---
 
-## � Currently Building
+## :dart: Why Hire Me?
 
 <div align="center">
 
-| Project | Status | Description |
-|:--------|:------:|:------------|
-| 🤖 **Agentic AI Framework** | `🚧 In Progress` | Multi-agent systems with tool-use & planning |
-| 🇮🇳 **Hindi NLP Pipeline** | `🚧 In Progress` | Multilingual RAG for Indic languages |
-| 🛡️ **AI Red Teaming** | `📚 Research` | LLM security & adversarial testing |
+| Need | Solution | Proof |
+|:-----|:---------|:------|
+| **Build RAG Systems?** | Production-ready with zero hallucination | 99.2% accuracy, 80% time savings |
+| **Fine-tune LLMs?** | End-to-end training & optimization | Llama 3.1, GPT-4, Claude experience |
+| **Ship to Production?** | Battle-tested deployment skills | 15+ systems running in production |
+| **Research Background?** | Academic + industry blend | 1 Patent + 1 Published Paper |
 
 </div>
 
 ---
 
-## �💼 Professional Experience
+## :speech_balloon: Ask Me About
+
+`RAG Architecture` `LLM Fine-tuning` `Prompt Engineering` `AI Agents` `Vector Databases` `Audio AI` `Healthcare AI` `Multimodal Systems` `Hindi/Indic NLP` `Production ML`
+
+---
+
+## :fire: Currently Building
+
+<div align="center">
+
+| Project | Status | Description |
+|:--------|:------:|:------------|
+| :robot: **Agentic AI Framework** | `In Progress` | Multi-agent systems with tool-use & planning |
+| :india: **Hindi NLP Pipeline** | `In Progress` | Multilingual RAG for Indic languages |
+| :shield: **AI Red Teaming** | `Research` | LLM security & adversarial testing |
+| :rocket: **Enterprise RAG (Stealth)** | `Production` | YC-backed startup - Business automation platform |
+| :bulb: **AI Ops Platform (Stealth)** | `Production` | Series A startup - Intelligent workflow engine |
+
+</div>
+
+---
+
+## :briefcase: Professional Experience
 
 <table>
 <tr>
