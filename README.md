@@ -24,47 +24,105 @@
 
 ## 🎯 What I Bring to AI Teams
 
-```python
-# 🚀 hemant.py - Building the Future of AI
+<table>
+<tr>
+<td width="50%">
 
-class HemantSudarshan:
-    """AI/ML Engineer passionate about production-ready AI systems 🤖"""
-    
-    def __init__(self):
-        self.role = "AI/ML Engineer & LLM Specialist"
-        self.location = "Bengaluru, India 🇮🇳"
-        self.education = "B.Tech CSE @ Dayananda Sagar University"
-        self.status = "🎯 Open to AI/ML Roles"
-        
-    @property
-    def current_mission(self):
-        return "Building AI that understands, reasons, and delivers results"
-    
-    def expertise(self) -> dict:
-        return {
-            "🧠 LLMs": ["GPT-4o", "Claude 3.5", "Llama 3.1", "Gemini 2.0", "Fine-tuning"],
-            "🔍 RAG Stack": ["LangChain", "LlamaIndex", "Weaviate", "Qdrant", "Pinecone"],
-            "🎯 Specialties": ["Prompt Engineering", "AI Agents", "Multimodal AI", "RAG"],
-            "⚡ Production": ["FastAPI", "Docker", "AWS", "GCP", "MLOps"],
-            "💻 Languages": ["Python", "C++", "JavaScript", "SQL"]
-        }
-    
-    def superpowers(self) -> dict:
-        return {
-            "🏗️ Systems Built": "15+ production AI systems",
-            "🎯 RAG Accuracy": "99.2% with zero hallucination",
-            "⚡ API Latency": "<500ms response times",
-            "📈 Impact": "80% reduction in research time",
-            "📜 Research": "1 Patent Filed + 1 Paper Published"
-        }
-    
-    def languages_spoken(self) -> list:
-        return ["English 🇬🇧", "Hindi 🇮🇳", "Telugu", "Japanese 🇯🇵 (Intermediate)", "Kannada"]
+### :briefcase: Role & Location
+**AI/ML Engineer & LLM Specialist**  
+:round_pushpin: Bengaluru, India  
+:mortar_board: B.Tech CSE @ Dayananda Sagar University  
+:green_circle: **Open to AI/ML Roles**
 
-if __name__ == "__hiring__":
-    hemant = HemantSudarshan()
-    hemant.connect("hemanthsudarshan2002@gmail.com")  # Let's build something amazing!
-```
+### :star2: Mission
+*Building AI that understands, reasons, and delivers measurable business results*
+
+</td>
+<td width="50%">
+
+### :trophy: Key Achievements
+- :rocket: **15+ Production AI Systems** deployed
+- :dart: **99.2% Accuracy** in RAG systems
+- :zap: **<500ms Response Times** for APIs
+- :chart_with_upwards_trend: **80% Time Reduction** in research workflows
+- :scroll: **1 Patent Filed + 1 Paper Published**
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="33%">
+
+### :brain: LLM Expertise
+- GPT-4o
+- Claude 3.5
+- Llama 3.1
+- Gemini 2.0
+- Fine-tuning
+
+</td>
+<td width="33%">
+
+### :mag: RAG & Vector DBs
+- LangChain
+- LlamaIndex
+- Weaviate
+- Qdrant
+- Pinecone
+
+</td>
+<td width="34%">
+
+### :computer: Production Stack
+- FastAPI
+- Docker
+- AWS / GCP
+- MLOps
+- CI/CD
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+### :sparkles: AI Specialties
+- Prompt Engineering
+- AI Agents
+- Multimodal AI
+- RAG Systems
+
+</td>
+<td width="33%">
+
+### :wrench: Languages
+- Python
+- C++
+- JavaScript
+- SQL
+
+</td>
+<td width="34%">
+
+### :globe_with_meridians: Speak
+- English :uk:
+- Hindi :india:
+- Telugu
+- Japanese :jp: (Intermediate)
+- Kannada
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+:email: **Let's Connect:** [hemanthsudarshan2002@gmail.com](mailto:hemanthsudarshan2002@gmail.com)
+
+</div>
 
 ---
 
