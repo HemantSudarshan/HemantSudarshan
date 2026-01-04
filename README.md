@@ -56,21 +56,33 @@ class HemantSudarshan:
 <td width="50%">
 
 ### 🏢 AI Operations & Localization Consultant
-**Pratilipi** • *Jan 2025 – Present*
+**Pratilipi Comics** • *August 2025 – Present*
 
 - 🔹 Leading AI-driven localization initiatives
-- 🔹 Optimizing content delivery with LLM integration
-- 🔹 Building scalable AI pipelines
+- 🔹 Optimizing content delivery with GenAI tools
+- 🔹 Building scalable localization pipelines
 
 </td>
 <td width="50%">
 
-### 🤖 ML Model Training Engineer
-**AppiVa Software Pvt Ltd** (NASSCOM 10K Startup)
+### 🤖 Localization Operations & Gen AI Intern
+**Pratilipi Comics** • *Feb 2025 – August 2025*
 
-- 🔹 Developed and trained production ML models
-- 🔹 Data pipeline optimization
-- 🔹 Model deployment & monitoring
+- 🔹 Developed GenAI tools for content localization
+- 🔹 Automated localization workflows
+- 🔹 Multi-language content optimization
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🎓 Machine Learning Intern
+**AppiVa Software Pvt Ltd** (NASSCOM 10K Startup) • *Aug 2023 – Sep 2023*
+
+- 🔹 Data preprocessing & analytics pipeline development
+- 🔹 Built ML models from existing projects
+- 🔹 Model accuracy optimization and performance tuning
 
 </td>
 </tr>
@@ -78,7 +90,21 @@ class HemantSudarshan:
 
 ---
 
-## 🚀 Featured AI Projects
+## � Patents & Publications
+
+<div align="center">
+
+| Type | Title | Status |
+|:-----|:------|:-------|
+| 🎤 **Conference** | *Discovering Insights into Heart Health: A Survey of Data Mining and Machine Learning Methods* | Presented at ICCICCT 2023, IIT Kharagpur |
+| 📋 **Patent** | *A System for Providing Security Using a Plurality of Factors for IoT Gadgets* | Filed (Indian Patent No. 202341040746) |
+| 📝 **Research** | *An Examination of Different Deep Learning Models for Transparent Identification of Tomato Leaf Diseases* | Accepted for Publication |
+
+</div>
+
+---
+
+## �🚀 Featured AI Projects
 
 <table>
 <tr>
@@ -148,6 +174,40 @@ class HemantSudarshan:
 - 🎭 Creative AI storytelling
 
 [🔗 View Project](https://github.com/HemantSudarshan/narrative-transformer)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛡️ [Anti FAKE - Deepfake Detector](https://github.com/HemantSudarshan/Anti-FAKE)
+**Multimodal Disinformation Detection System**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/CV-00ADD8?style=flat-square)
+
+- 🔍 MTCNN facial detection
+- 🧠 InceptionResnetV1 + GradCAM explainability
+- 📰 ML classifiers for fake news (RF, LR)
+- ✅ IFCN-certified source verification
+
+[🔗 View Project](https://github.com/HemantSudarshan/Anti-FAKE)
+
+</td>
+<td width="50%">
+
+### 🏠 [AI-Powered Real Estate Agent](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-)
+**Full-Stack Property Analysis Platform**
+
+![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+- 🤖 Gemini AI for investment insights
+- 🔥 Firecrawl API automated data extraction
+- 🗄️ Dual-database architecture (MongoDB + PostgreSQL)
+- ☁️ AWS/GCP deployment ready
+
+[🔗 View Project](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-)
 
 </td>
 </tr>
@@ -247,13 +307,19 @@ class HemantSudarshan:
 <div align="center">
 
 **🎓 B.Tech in Computer Science & Technology**  
-*Dayananda Sagar University*
+*Dayananda Sagar University* • **CGPA: 7.66** (2021-2025)
+
+**📚 Higher Secondary Certificate (HSC)**  
+*Narayana Junior College* • **CGPA: 9.12** (Science Stream)
+
+**🏫 Secondary School Leaving Certificate (SSLC)**  
+*Timpany Senior Secondary School (CBSE)* • **60%**
 
 ---
 
 ### 🌱 Currently Exploring
 
-`🔬 AI Agents & Multi-Agent Systems` `🧬 Advanced Prompt Engineering` `🔐 AI Security & Red Teaming` `🌍 Multilingual NLP (Hindi/Marathi)`
+`🔬 AI Agents & Multi-Agent Systems` `🧬 Advanced Prompt Engineering` `🔐 AI Security & Red Teaming` `🌍 Multilingual NLP (Hindi/Telugu/Kannada)` `🇯🇵 Japanese Language (Intermediate)`
 
 </div>
 
