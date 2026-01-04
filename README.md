@@ -148,40 +148,37 @@
 
 ---
 
-## :fire: What I'm Working On Right Now
+## :round_pushpin: Timeline Highlights
 
-<div align="center">
+**2025 - Now**
+- :rocket: AI Operations & Localization Consultant @ **Pratilipi Comics**
+- :wrench: Building GenAI localization pipelines for 600M+ Indic users
+- :chart_with_upwards_trend: Impact: 40%+ cost reduction, 3x workflow acceleration
 
-### :robot: **Agentic AI Framework** `Enterprise Automation`
-![Progress](https://img.shields.io/badge/Progress-70%25-brightgreen?style=for-the-badge) 
-![Status](https://img.shields.io/badge/Status-In_Development-blue?style=for-the-badge)
+**2024 - 2025**
+- :brain: Built **15+ production AI systems**
+- :dart: RAG expertise: 99.2% accuracy, <500ms latency
+- :loud_sound: Multimodal AI: Vision + Audio + Text
+- :scroll: 1 Patent filed, 1 Conference paper published
 
-Multi-agent collaboration system • Tool-use & planning • Production-ready framework
-
----
-
-### :india: **Hindi NLP Pipeline** `2B+ Market Reach`
-![Progress](https://img.shields.io/badge/Progress-60%25-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In_Development-blue?style=for-the-badge)
-
-Multilingual RAG • Hindi|Telugu|Kannada • Indic language AI democratization
-
----
-
-### :shield: **AI Security Research** `Safer AI Systems`
-![Status](https://img.shields.io/badge/Status-Research_Phase-orange?style=for-the-badge)
-
-LLM red teaming • Prompt injection defense • Safety alignment
+**2023 - 2024**
+- :seedling: ML Intern @ **AppiVa Software** (NASSCOM 10K Startup)
+- :gear: First hands-on production ML experience
+- :bar_chart: Model optimization & performance tuning
 
 ---
 
-### :briefcase: **Enterprise AI Solutions** `40%+ Cost Reduction`
-![Status](https://img.shields.io/badge/Status-Live_in_Production-success?style=for-the-badge)
-![NDA](https://img.shields.io/badge/Details-NDA_Protected-red?style=for-the-badge)
+## :rocket: My AI Philosophy
 
-2+ early-stage startups • Revenue optimization • 3x workflow acceleration
+> *"Production systems that solve real problems for real people"*
 
-</div>
+### Three Bets I'm Making
+
+| Bet | Why | Opportunity |
+|:----|:----|:------------|
+| :india: **Indic AI is the next frontier** | 600M speakers, <0.1% AI coverage | First-mover advantage in untapped market |
+| :shield: **AI Safety is non-negotiable** | 33% of deployments fail without it | Competitive differentiator |
+| :zap: **Shipping beats perfection** | Anyone can run notebooks | Building monitored production systems = rare skill |
 
 ---
 
