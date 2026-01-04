@@ -150,16 +150,56 @@
 
 ## :fire: Currently Building
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-| Project | Status | Description |
-|:--------|:------:|:------------|
-| :robot: **Agentic AI Framework** | `In Progress` | Multi-agent systems with tool-use & planning |
-| :india: **Hindi NLP Pipeline** | `In Progress` | Multilingual RAG for Indic languages |
-| :shield: **AI Red Teaming** | `Research` | LLM security & adversarial testing |
-| :briefcase: **Enterprise Projects** | `Production` | Working on 2+ production systems for early-stage startups - Driving revenue growth & operational efficiency |
+### :robot: Agentic AI Framework
+**Status:** :construction: 70% Complete  
+Building autonomous multi-agent systems with:
+- Tool-use capabilities
+- Intelligent planning & reasoning
+- Inter-agent communication
+- **Goal:** Production-ready framework for enterprise automation
 
-</div>
+</td>
+<td width="50%">
+
+### :india: Hindi NLP Pipeline
+**Status:** :construction: 60% Complete  
+Multilingual RAG for Indic languages:
+- Hindi, Telugu, Kannada support
+- Custom embeddings for Indic scripts
+- Cultural context preservation
+- **Impact:** Serving 2B+ potential users
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### :shield: AI Security & Red Teaming
+**Status:** :books: Research Phase  
+Researching LLM security vulnerabilities:
+- Prompt injection defense
+- Adversarial testing frameworks
+- Safety alignment techniques
+- **Why:** Building safer AI systems
+
+</td>
+<td width="50%">
+
+### :briefcase: Enterprise Production Systems
+**Status:** :white_check_mark: Live in Production  
+Building AI solutions for **2+ early-stage startups**:
+- Revenue optimization platforms
+- Operational efficiency automation
+- **Driving:** 40%+ cost reduction, 3x faster workflows
+- **Confidential** - NDA protected
+
+</td>
+</tr>
+</table>
 
 ---
 
