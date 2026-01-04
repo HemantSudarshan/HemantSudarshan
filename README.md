@@ -29,10 +29,10 @@
 <td width="50%">
 
 ### :briefcase: Role & Location
-**AI/ML Engineer & LLM Specialist**  
+**AI Operations & Localisation Consultant**  
 :round_pushpin: Bengaluru, India  
-:mortar_board: B.Tech CSE @ Dayananda Sagar University  
-:green_circle: **Open to AI/ML Roles**
+:mortar_board: B.Tech CST @ Dayananda Sagar University  
+:green_circle: **Open to AI/ML Engineer, AI Product, LLM Specialist & RAG Architect Roles**
 
 ### :star2: Mission
 *Building AI that understands, reasons, and delivers measurable business results*
