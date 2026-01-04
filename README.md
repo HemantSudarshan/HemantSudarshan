@@ -22,29 +22,45 @@
 ## 🎯 What I Bring to AI Teams
 
 ```python
+# 🚀 hemant.py - Building the Future of AI
+
 class HemantSudarshan:
+    """AI/ML Engineer passionate about production-ready AI systems 🤖"""
+    
     def __init__(self):
         self.role = "AI/ML Engineer & LLM Specialist"
-        self.location = "India 🇮🇳"
-        self.current_focus = ["Production RAG Systems", "Multimodal AI", "AI Agents"]
+        self.location = "Bengaluru, India 🇮🇳"
+        self.education = "B.Tech CSE @ Dayananda Sagar University"
+        self.status = "🎯 Open to AI/ML Roles"
         
-    def skills(self):
+    @property
+    def current_mission(self):
+        return "Building AI that understands, reasons, and delivers results"
+    
+    def expertise(self) -> dict:
         return {
-            "LLMs": ["GPT-4", "Claude", "Llama 3.1", "Gemini 2.0", "Fine-tuning"],
-            "RAG_Stack": ["LangChain", "LlamaIndex", "Weaviate", "Qdrant", "Pinecone"],
-            "AI_Specialties": ["Prompt Engineering", "AI Agents", "Multimodal AI"],
-            "Production": ["FastAPI", "Docker", "AWS", "MLOps", "CI/CD"],
-            "Languages": ["Python", "JavaScript", "SQL"]
+            "🧠 LLMs": ["GPT-4o", "Claude 3.5", "Llama 3.1", "Gemini 2.0", "Fine-tuning"],
+            "🔍 RAG Stack": ["LangChain", "LlamaIndex", "Weaviate", "Qdrant", "Pinecone"],
+            "🎯 Specialties": ["Prompt Engineering", "AI Agents", "Multimodal AI", "RAG"],
+            "⚡ Production": ["FastAPI", "Docker", "AWS", "GCP", "MLOps"],
+            "💻 Languages": ["Python", "C++", "JavaScript", "SQL"]
         }
     
-    def achievements(self):
+    def superpowers(self) -> dict:
         return {
-            "production_systems": "15+",
-            "rag_accuracy": "99.2%",
-            "response_time": "<500ms",
-            "research_time_saved": "80%",
-            "open_source_contributions": "25+"
+            "🏗️ Systems Built": "15+ production AI systems",
+            "🎯 RAG Accuracy": "99.2% with zero hallucination",
+            "⚡ API Latency": "<500ms response times",
+            "📈 Impact": "80% reduction in research time",
+            "📜 Research": "1 Patent Filed + 1 Paper Published"
         }
+    
+    def languages_spoken(self) -> list:
+        return ["English 🇬🇧", "Hindi 🇮🇳", "Telugu", "Japanese 🇯🇵 (Intermediate)", "Kannada"]
+
+if __name__ == "__hiring__":
+    hemant = HemantSudarshan()
+    hemant.connect("hemanthsudarshan2002@gmail.com")  # Let's build something amazing!
 ```
 
 ---
@@ -307,13 +323,13 @@ class HemantSudarshan:
 <div align="center">
 
 **🎓 B.Tech in Computer Science & Technology**  
-*Dayananda Sagar University* • **CGPA: 7.66** (2021-2025)
+*Dayananda Sagar University* • **CGPA: 7.66** • First Class (2021-2025)
 
 **📚 Higher Secondary Certificate (HSC)**  
 *Narayana Junior College* • **CGPA: 9.12** (Science Stream)
 
 **🏫 Secondary School Leaving Certificate (SSLC)**  
-*Timpany Senior Secondary School (CBSE)* • **60%**
+*Timpany Senior Secondary School (CBSE)*
 
 ---
 
