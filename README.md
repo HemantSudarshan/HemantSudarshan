@@ -1,243 +1,284 @@
 <div align="center">
   
-  <img src="https://img.shields.io/badge/AI%2FML%20Engineer-6C63FF?style=for-the-badge&labelColor=000&logo=openai&logoColor=white" alt="AI/ML Engineer Badge"/>
-  
-  ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=HemantSudarshan.HemantSudarshan)
-  [![GitHub followers](https://img.shields.io/github/followers/HemantSudarshan?label=Followers&style=social)](https://github.com/HemantSudarshan)
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hemant%20Sudarshan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20RAG%20Specialist&descAlignY=52&descSize=18"/>
 
-  # 👋 Hi, I'm Hemant Sudarshan
-  
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=500&lines=LLM+%26+RAG+Systems+Specialist;Multimodal+AI+Developer;Building+Production-Ready+AI)
+  <!-- Dynamic Roles -->
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=🚀+Building+Production-Ready+AI+Systems;🎯+99.2%25+Accuracy+in+RAG+Systems;⚡+<500ms+API+Response+Times)
 
-  [📋 Resume](#) • [🔗 LinkedIn](https://linkedin.com/in/hemantsudarshan) • [📧 Contact](mailto:hemantsudarshan@gmail.com) • [🤗 Hugging Face](https://huggingface.co/Hemantxai)
-
-  [![Open to Opportunities](https://img.shields.io/badge/🎯_Open_to-AI%2FML_Roles-4CAF50?style=for-the-badge)](mailto:hemantsudarshan@gmail.com)
-  
-  **Target Roles**: AI/ML Engineer | LLM Specialist | RAG Systems Architect
-
-</div>
-
----
-
-## 🧠 About Me
-
-I'm an **AI/ML Developer** passionate about building intelligent systems that solve real-world problems. I specialize in:
-
-- 🤖 **Large Language Models (LLMs)** & GPT-based applications
-- 🔍 **Retrieval-Augmented Generation (RAG)** systems with zero hallucination
-- 🎙️ **Multimodal AI** - Audio, Vision & Text processing
-- 🏥 **Domain-specific AI** - Healthcare, Compliance, Real Estate
-
-> *"Building AI that understands, reasons, and delivers production-ready results"*
-
----
-
-## 📊 Impact Metrics
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| 🔧 Production Systems Built | **15+** |
-| 🎯 Compliance RAG Accuracy | **99.2%** |
-| ⚡ API Response Time (RAG) | **<500ms** |
-| 📉 Research Time Reduction | **80%** |
-| 🌍 Open Source Projects | **25+** |
-
-</div>
-
----
-
-## 🌟 Top Projects
-
-### ⚖️ Compliance-GPT
-**Production-ready RAG system for regulatory compliance** | Zero hallucination guarantee
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-- ✅ Citation-backed answers with BM25 + semantic hybrid search
-- ✅ Multi-regulation support: GDPR, CCPA, PCI-DSS
-- ✅ 80% reduction in compliance research time
-- ✅ Deployed on Hugging Face Spaces
-
-[🔗 View Repo](https://github.com/HemantSudarshan/Compliance-GPT) | [🚀 Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)
-
----
-
-### 🎙️ AudioRaG - Fine-Tuned with Sambanova
-**Audio RAG system with speaker diarization & intelligent Q&A**
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-FF6B6B?style=flat-square)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square)
-![AssemblyAI](https://img.shields.io/badge/AssemblyAI-0066FF?style=flat-square)
-
-- ✅ Speaker diarization with multi-speaker support
-- ✅ BGE-large embeddings (1024 dim) for semantic search
-- ✅ Meta-Llama-3.1-405B-Instruct for response generation
-- ✅ Real-time audio transcription & analysis
-
-[🔗 View Repo](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
-
----
-
-### 👁️ Vision & Audio Medical Chatbot
-**Multimodal healthcare assistant with vision + speech capabilities**
-
-![Vision AI](https://img.shields.io/badge/Vision_AI-4285F4?style=flat-square&logo=google&logoColor=white)
-![Speech AI](https://img.shields.io/badge/Speech_AI-FF6F00?style=flat-square)
-![Healthcare](https://img.shields.io/badge/Healthcare-E91E63?style=flat-square)
-
-- ✅ Medical image analysis integration
-- ✅ Voice-based consultation interface
-- ✅ Domain-specific medical knowledge base
-
-[🔗 View Repo](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot)
-
----
-
-## 🚀 All Projects
-
-### 🔥 AI & RAG Systems
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| ⚖️ [**Compliance-GPT**](https://github.com/HemantSudarshan/Compliance-GPT) | Production RAG for regulatory compliance | FastAPI, Weaviate, Docker |
-| 🎙️ [**Audio-RAG-Analyzer**](https://github.com/HemantSudarshan/Audio-RAG-Analyzer) | Audio content analysis with RAG | Python, Transformers |
-| 🔊 [**AudioRaG_FTSambanova**](https://github.com/HemantSudarshan/AudioRaG_FTSambanova) | Fine-tuned Audio RAG with speaker diarization | Qdrant, LlamaIndex |
-| 🎵 [**Audio-Ai-Agent**](https://github.com/HemantSudarshan/Audio-Ai-Agent) | Intelligent audio processing agent | Python, AI Agents |
-
-### 🏥 Healthcare & Domain AI
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 👁️ [**Vision-Audio-Medical-Chatbot**](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot) | Multimodal healthcare chatbot | Vision AI, Speech AI |
-| 🏥 [**Healthcare_ChatBot**](https://github.com/HemantSudarshan/Healthcare_ChatBot) | Domain-specific healthcare assistant | Python, NLP |
-| 💪 [**HealthyfyMe**](https://github.com/HemantSudarshan/HealthyfyMe) | Health and wellness application | Python, ML |
-
-### 📚 NLP & Document Intelligence
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 📄 [**LLMBasedPDF**](https://github.com/HemantSudarshan/LLMBasedPDF) | LLM-powered PDF processing | LLMs, PDF Processing |
-| 📝 [**TextSummarizer_Project**](https://github.com/HemantSudarshan/TextSummarizer_Project) | Intelligent text summarization | NLP, Transformers |
-| 🔍 [**DocumentRetrival**](https://github.com/HemantSudarshan/DocumentRetrival) | Smart document retrieval | Information Retrieval |
-| 📖 [**narrative-transformer**](https://github.com/HemantSudarshan/narrative-transformer) | Text transformation with transformers | Transformers |
-
-### 🌐 Full-Stack Applications
-
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 📱 [**Edu-Connect-Dev**](https://github.com/HemantSudarshan/Edu-Connect-Dev) | Educational platform | React, Node.js, MongoDB |
-| 📊 [**gdp-dashboard**](https://github.com/HemantSudarshan/gdp-dashboard) | Data visualization dashboard | Streamlit |
-| 🏘️ [**AI-Real-Estate-Agent**](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-) | Property analysis with AI | AI, ML |
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### AI/ML & Deep Learning
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
-![LlamaIndex](https://img.shields.io/badge/🦙_LlamaIndex-7C3AED?style=for-the-badge)
-
-### Vector Databases & Infrastructure
-![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=for-the-badge)
-![Qdrant](https://img.shields.io/badge/Qdrant-FF6B6B?style=for-the-badge)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
-
----
-
-## 🎓 Currently Learning
-
-- 🚀 **SambaNova Chips** - Custom AI hardware optimization
-- 🧬 **Prompt Engineering at Scale** - Production LLM optimization
-- 🔐 **AI Security & Adversarial Testing** - Robustness improvement
-- 🌐 **Multilingual NLP** - Hindi/Marathi language models
-
----
-
-## 🧪 AI Model Evaluation Experience
-
-| Model | Tested For | Performance Notes |
-|-------|-----------|-------------------|
-| GPT-4o | RAG accuracy | 95% relevance, excellent reasoning |
-| Claude 3.5 | Compliance analysis | Superior legal text understanding |
-| Llama 3.1 405B | Audio RAG | Fast inference, great for production |
-| Gemini 2.0 | Multimodal | Strong vision + audio capabilities |
-
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=HemantSudarshan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HemantSudarshan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-  
 </div>
 
 <div align="center">
   
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=HemantSudarshan&theme=tokyonight&hide_border=true)
-  
+  [![Open to Work](https://img.shields.io/badge/🎯_Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
+  [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Profile-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
+  [![Email](https://img.shields.io/badge/📧_Email-Contact-EA4335?style=for-the-badge)](mailto:hemantsudarshan@gmail.com)
+
 </div>
 
 ---
 
-## 📈 Repository Growth
+## 🎯 What I Bring to AI Teams
 
-[![Star History Chart](https://api.star-history.com/svg?repos=HemantSudarshan/Compliance-GPT,HemantSudarshan/AudioRaG_FTSambanova&type=Date)](https://star-history.com/#HemantSudarshan/Compliance-GPT&HemantSudarshan/AudioRaG_FTSambanova&Date)
-
----
-
-## 🎯 Core Competencies
-
-```text
-🤖 Large Language Models     ████████████████████░   95%
-🔍 RAG & Vector Search       ███████████████████░░   90%
-🎙️ Audio/Speech AI           █████████████████░░░░   85%
-👁️ Computer Vision           ████████████████░░░░░   80%
-🌐 Full-Stack Development    ███████████████░░░░░░   75%
-☁️ Cloud & MLOps             ██████████████░░░░░░░   70%
+```python
+class HemantSudarshan:
+    def __init__(self):
+        self.role = "AI/ML Engineer & LLM Specialist"
+        self.location = "India 🇮🇳"
+        self.current_focus = ["Production RAG Systems", "Multimodal AI", "AI Agents"]
+        
+    def skills(self):
+        return {
+            "LLMs": ["GPT-4", "Claude", "Llama 3.1", "Gemini 2.0", "Fine-tuning"],
+            "RAG_Stack": ["LangChain", "LlamaIndex", "Weaviate", "Qdrant", "Pinecone"],
+            "AI_Specialties": ["Prompt Engineering", "AI Agents", "Multimodal AI"],
+            "Production": ["FastAPI", "Docker", "AWS", "MLOps", "CI/CD"],
+            "Languages": ["Python", "JavaScript", "SQL"]
+        }
+    
+    def achievements(self):
+        return {
+            "production_systems": "15+",
+            "rag_accuracy": "99.2%",
+            "response_time": "<500ms",
+            "research_time_saved": "80%",
+            "open_source_contributions": "25+"
+        }
 ```
 
 ---
 
-## 📫 Let's Connect!
+## 💼 Professional Experience
+
+<table>
+<tr>
+<td width="50%">
+
+### 🏢 AI Operations & Localization Consultant
+**Pratilipi** • *Jan 2025 – Present*
+
+- 🔹 Leading AI-driven localization initiatives
+- 🔹 Optimizing content delivery with LLM integration
+- 🔹 Building scalable AI pipelines
+
+</td>
+<td width="50%">
+
+### 🤖 ML Model Training Engineer
+**AppiVa Software Pvt Ltd** (NASSCOM 10K Startup)
+
+- 🔹 Developed and trained production ML models
+- 🔹 Data pipeline optimization
+- 🔹 Model deployment & monitoring
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Featured AI Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### ⚖️ [Compliance-GPT](https://github.com/HemantSudarshan/Compliance-GPT)
+**Zero-Hallucination RAG for Regulatory Compliance**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+- ✨ **99.2% accuracy** with citation-backed answers
+- ⚡ BM25 + semantic hybrid search
+- 📋 GDPR, CCPA, PCI-DSS support
+- 🔥 **80% reduction** in research time
+
+[🔗 Repo](https://github.com/HemantSudarshan/Compliance-GPT) • [🚀 Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)
+
+</td>
+<td width="50%">
+
+### 🎙️ [AudioRaG with SambaNova](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
+**Enterprise Audio Intelligence System**
+
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square)
+![Qdrant](https://img.shields.io/badge/Qdrant-FF6B6B?style=flat-square)
+![AssemblyAI](https://img.shields.io/badge/AssemblyAI-0066FF?style=flat-square)
+
+- 🎯 Speaker diarization & multi-speaker support
+- 🧠 BGE-large embeddings (1024 dim)
+- ⚡ Meta-Llama-3.1-405B-Instruct
+- 📊 Real-time audio RAG pipeline
+
+[🔗 View Project](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 👁️ [Vision-Audio Medical Chatbot](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot)
+**Multimodal Healthcare AI Assistant**
+
+![Vision AI](https://img.shields.io/badge/Vision_AI-4285F4?style=flat-square&logo=google&logoColor=white)
+![Healthcare](https://img.shields.io/badge/Healthcare-E91E63?style=flat-square)
+
+- 🩺 Medical image analysis
+- 🎤 Voice-based consultation
+- 📚 Domain-specific medical KB
+- 🔐 Privacy-focused design
+
+[🔗 View Project](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot)
+
+</td>
+<td width="50%">
+
+### 📖 [Narrative Transformer](https://github.com/HemantSudarshan/narrative-transformer)
+**AI-Powered Story Genre Transformation**
+
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![NLP](https://img.shields.io/badge/NLP-3776AB?style=flat-square)
+
+- ✨ Novel "Narrative Tension Index" metric
+- 🔄 Multi-stage transformation pipeline
+- 📊 Genre-specific style analysis
+- 🎭 Creative AI storytelling
+
+[🔗 View Project](https://github.com/HemantSudarshan/narrative-transformer)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ AI/ML Tech Stack
 
 <div align="center">
-  
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HemantSudarshan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemantsudarshan)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
-[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
+
+### 🤖 LLM & AI Frameworks
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge)
+![Meta](https://img.shields.io/badge/Llama-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Google](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+
+### 🔗 RAG & Vector Search
+![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
+![LlamaIndex](https://img.shields.io/badge/🦙_LlamaIndex-7C3AED?style=for-the-badge)
+![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=for-the-badge)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-000?style=for-the-badge)
+
+### ⚙️ Production & Infrastructure
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
 
 </div>
 
 ---
 
+## 🧪 LLM Evaluation Experience
+
+> *"I don't just use LLMs—I evaluate, benchmark, and optimize them for production"*
+
+| Model | Use Case | Key Insight |
+|:------|:---------|:------------|
+| 🧠 **GPT-4o** | RAG Accuracy Testing | 95% relevance, excellent multi-hop reasoning |
+| 🎯 **Claude 3.5 Sonnet** | Compliance Analysis | Superior legal text comprehension |
+| ⚡ **Llama 3.1 405B** | Audio RAG | Optimal speed-accuracy tradeoff |
+| 🌐 **Gemini 2.0** | Multimodal Tasks | Best-in-class vision + audio |
+
+---
+
+## 📚 More Projects
+
+<details>
+<summary><b>🔊 Audio & Speech AI</b></summary>
+
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [Audio-RAG-Analyzer](https://github.com/HemantSudarshan/Audio-RAG-Analyzer) | Audio content analysis with RAG | Python, Transformers |
+| [Audio-AI-Agent](https://github.com/HemantSudarshan/Audio-Ai-Agent) | Intelligent audio processing agent | AI Agents |
+
+</details>
+
+<details>
+<summary><b>🏥 Healthcare AI</b></summary>
+
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [Healthcare_ChatBot](https://github.com/HemantSudarshan/Healthcare_ChatBot) | Domain-specific healthcare assistant | Python, NLP |
+| [HealthyfyMe](https://github.com/HemantSudarshan/HealthyfyMe) | Health and wellness application | Python, ML |
+
+</details>
+
+<details>
+<summary><b>📄 Document Intelligence</b></summary>
+
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [LLMBasedPDF](https://github.com/HemantSudarshan/LLMBasedPDF) | LLM-powered PDF processing | LLMs |
+| [TextSummarizer_Project](https://github.com/HemantSudarshan/TextSummarizer_Project) | Intelligent text summarization | NLP, Transformers |
+| [DocumentRetrival](https://github.com/HemantSudarshan/DocumentRetrival) | Smart document retrieval | Information Retrieval |
+
+</details>
+
+<details>
+<summary><b>🌐 Full-Stack Apps</b></summary>
+
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [Edu-Connect-Dev](https://github.com/HemantSudarshan/Edu-Connect-Dev) | Educational platform | React, Node.js, MongoDB |
+| [gdp-dashboard](https://github.com/HemantSudarshan/gdp-dashboard) | Data visualization | Streamlit |
+| [AI-Real-Estate-Agent](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-) | Property analysis AI | AI, ML |
+
+</details>
+
+---
+
+## 🎓 Education & Background
+
 <div align="center">
-  
-  ### 💡 *"Transforming complex AI research into production-ready solutions"*
-  
-  ⭐️ From [HemantSudarshan](https://github.com/HemantSudarshan)
-  
+
+**🎓 B.Tech in Computer Science & Technology**  
+*Dayananda Sagar University*
+
+---
+
+### 🌱 Currently Exploring
+
+`🔬 AI Agents & Multi-Agent Systems` `🧬 Advanced Prompt Engineering` `🔐 AI Security & Red Teaming` `🌍 Multilingual NLP (Hindi/Marathi)`
+
 </div>
+
+---
+
+## 🤝 Let's Build Something Amazing
+
+<div align="center">
+
+I'm looking for opportunities in:
+
+**`AI/ML Engineer`** • **`LLM Specialist`** • **`RAG Systems Architect`** • **`AI Product Engineer`**
+
+---
+
+[![GitHub](https://img.shields.io/badge/GitHub-HemantSudarshan-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HemantSudarshan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
+[![Email](https://img.shields.io/badge/Email-Let's_Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Hemantxai-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+
+</div>
+
+</CodeContent>
+<parameter name="EmptyFile">false
