@@ -65,7 +65,21 @@ if __name__ == "__hiring__":
 
 ---
 
-## 💼 Professional Experience
+## � Currently Building
+
+<div align="center">
+
+| Project | Status | Description |
+|:--------|:------:|:------------|
+| 🤖 **Agentic AI Framework** | `🚧 In Progress` | Multi-agent systems with tool-use & planning |
+| 🇮🇳 **Hindi NLP Pipeline** | `🚧 In Progress` | Multilingual RAG for Indic languages |
+| 🛡️ **AI Red Teaming** | `📚 Research` | LLM security & adversarial testing |
+
+</div>
+
+---
+
+## �💼 Professional Experience
 
 <table>
 <tr>
