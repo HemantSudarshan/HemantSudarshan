@@ -148,58 +148,40 @@
 
 ---
 
-## :fire: Currently Building
+## :fire: What I'm Working On Right Now
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-### :robot: Agentic AI Framework
-**Status:** :construction: 70% Complete  
-Building autonomous multi-agent systems with:
-- Tool-use capabilities
-- Intelligent planning & reasoning
-- Inter-agent communication
-- **Goal:** Production-ready framework for enterprise automation
+### :robot: **Agentic AI Framework** `Enterprise Automation`
+![Progress](https://img.shields.io/badge/Progress-70%25-brightgreen?style=for-the-badge) 
+![Status](https://img.shields.io/badge/Status-In_Development-blue?style=for-the-badge)
 
-</td>
-<td width="50%">
+Multi-agent collaboration system • Tool-use & planning • Production-ready framework
 
-### :india: Hindi NLP Pipeline
-**Status:** :construction: 60% Complete  
-Multilingual RAG for Indic languages:
-- Hindi, Telugu, Kannada support
-- Custom embeddings for Indic scripts
-- Cultural context preservation
-- **Impact:** Serving 2B+ potential users
+---
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+### :india: **Hindi NLP Pipeline** `2B+ Market Reach`
+![Progress](https://img.shields.io/badge/Progress-60%25-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In_Development-blue?style=for-the-badge)
 
-### :shield: AI Security & Red Teaming
-**Status:** :books: Research Phase  
-Researching LLM security vulnerabilities:
-- Prompt injection defense
-- Adversarial testing frameworks
-- Safety alignment techniques
-- **Why:** Building safer AI systems
+Multilingual RAG • Hindi|Telugu|Kannada • Indic language AI democratization
 
-</td>
-<td width="50%">
+---
 
-### :briefcase: Enterprise Production Systems
-**Status:** :white_check_mark: Live in Production  
-Building AI solutions for **2+ early-stage startups**:
-- Revenue optimization platforms
-- Operational efficiency automation
-- **Driving:** 40%+ cost reduction, 3x faster workflows
-- **Confidential** - NDA protected
+### :shield: **AI Security Research** `Safer AI Systems`
+![Status](https://img.shields.io/badge/Status-Research_Phase-orange?style=for-the-badge)
 
-</td>
-</tr>
-</table>
+LLM red teaming • Prompt injection defense • Safety alignment
+
+---
+
+### :briefcase: **Enterprise AI Solutions** `40%+ Cost Reduction`
+![Status](https://img.shields.io/badge/Status-Live_in_Production-success?style=for-the-badge)
+![NDA](https://img.shields.io/badge/Details-NDA_Protected-red?style=for-the-badge)
+
+2+ early-stage startups • Revenue optimization • 3x workflow acceleration
+
+</div>
 
 ---
 
