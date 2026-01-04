@@ -98,8 +98,7 @@ if __name__ == "__hiring__":
 | :robot: **Agentic AI Framework** | `In Progress` | Multi-agent systems with tool-use & planning |
 | :india: **Hindi NLP Pipeline** | `In Progress` | Multilingual RAG for Indic languages |
 | :shield: **AI Red Teaming** | `Research` | LLM security & adversarial testing |
-| :rocket: **Enterprise RAG (Stealth)** | `Production` | YC-backed startup - Business automation platform |
-| :bulb: **AI Ops Platform (Stealth)** | `Production` | Series A startup - Intelligent workflow engine |
+| :briefcase: **Enterprise Projects** | `Production` | Working on 2+ production systems for early-stage startups - Driving revenue growth & operational efficiency |
 
 </div>
 
