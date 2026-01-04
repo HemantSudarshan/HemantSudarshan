@@ -78,6 +78,7 @@ if __name__ == "__hiring__":
 | **Fine-tune LLMs?** | End-to-end training & optimization | Llama 3.1, GPT-4, Claude experience |
 | **Ship to Production?** | Battle-tested deployment skills | 15+ systems running in production |
 | **Research Background?** | Academic + industry blend | 1 Patent + 1 Published Paper |
+| **Fresh Perspective?** | 2025 CS graduate with latest AI trends | Hands-on with GPT-4o, Claude 3.5, Gemini 2.0 |
 
 </div>
 
@@ -362,7 +363,7 @@ if __name__ == "__hiring__":
 <div align="center">
 
 **🎓 B.Tech in Computer Science & Technology**  
-*Dayananda Sagar University* • **CGPA: 7.66** • First Class (2021-2025)
+*Dayananda Sagar University* • First Class (2021-2025)
 
 **📚 Higher Secondary Certificate (HSC)**  
 *Narayana Junior College* • **CGPA: 9.12** (Science Stream)
