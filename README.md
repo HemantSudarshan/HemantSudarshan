@@ -1,12 +1,15 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hemant%20Sudarshan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI/ML%20Engineer%20·%20LLM%20%26%20RAG%20Specialist%20·%20Production%20AI%20Systems&descAlignY=52&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hemant%20Sudarshan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI/ML%20Engineer%20·%20LLM%20%26%20RAG%20Specialist%20·%20Production%20AI%20Systems&descAlignY=55&descSize=18"/>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=60&lines=Building+Production-Ready+AI+Systems+for+Real-World+Impact)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+Production-Ready+AI+Systems;RAG+·+LLMs+·+AI+Agents+·+Multimodal+AI;For+Real-World+Impact+🚀)
 
-![Profile Views](https://komarev.com/ghpvc/?username=HemantSudarshan&color=6C63FF&style=flat-square&label=Profile+Views)
-[![GitHub followers](https://img.shields.io/github/followers/HemantSudarshan?label=Followers&style=social)](https://github.com/HemantSudarshan)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=HemantSudarshan&color=6C63FF&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/HemantSudarshan?label=Followers&style=for-the-badge&color=6C63FF&labelColor=1a1a2e" alt="GitHub Followers"/>
+  <img src="https://img.shields.io/github/stars/HemantSudarshan?label=Total%20Stars&style=for-the-badge&color=FFD21E&labelColor=1a1a2e" alt="GitHub Stars"/>
+</p>
 
 [![Open to Work](https://img.shields.io/badge/🟢_Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
@@ -15,9 +18,11 @@
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🚀 Quick Links — Recruiters Start Here
+
+<div align="center">
 
 | Project | Type | Key Tech | Links |
 |:--------|:-----|:---------|:------|
@@ -28,20 +33,61 @@
 | **AntiAi Platform** | Deepfake + Fact-Check | PyTorch, CV, ML | [Code](https://github.com/HemantSudarshan/AntiAi) |
 | **AI Real Estate Agent** | Full-Stack AI | Gemini, Firecrawl, Streamlit | [Code](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-) |
 
----
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📊 At a Glance
 
-- 🎓 **2025 B.Tech CSE Graduate** — Dayananda Sagar University
-- 💼 **Currently:** AI Operations & Localization Consultant @ Pratilipi Comics
-- 🚀 **6+ AI/ML Projects** built & deployed (RAG, LLMs, Multimodal)
-- 📜 **1 Patent Filed** (IoT Security) + **1 Paper Published** (IIT Kharagpur)
-- 🎯 **Core Focus:** RAG Systems · LLMs · AI Agents · Production Deployment
-- 🌏 **Passion:** Indic AI for 600M+ Hindi/Telugu/Kannada speakers
+<div align="center">
 
----
+```yaml
+name: Hemant Sudarshan
+located_in: Bengaluru, India
+current_role: AI Operations & Localization Consultant @ Pratilipi Comics
+education: B.Tech CSE (2025) - Dayananda Sagar University
+experience:
+  - 6+ AI/ML Projects (RAG, LLMs, Multimodal)
+  - 1 Patent Filed (IoT Security)
+  - 1 Paper Published (IIT Kharagpur Conference)
+core_focus:
+  - RAG Systems & Vector Databases
+  - LLM Integration & Prompt Engineering
+  - AI Agents & Multimodal AI
+  - Production Deployment (FastAPI + Docker + Cloud)
+passion: Indic AI for 600M+ Hindi/Telugu/Kannada speakers
+```
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=HemantSudarshan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=FFD21E&text_color=c9d1d9"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HemantSudarshan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=c9d1d9"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HemantSudarshan&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=FFD21E&currStreakLabel=6C63FF" alt="GitHub Streak Stats"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=HemantSudarshan&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+</div>
+
+<details>
+<summary>📊 <b>Contribution Graph</b></summary>
+<br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HemantSudarshan&custom_title=Contribution%20Graph&bg_color=0d1117&color=6C63FF&line=FFD21E&point=c9d1d9&area_color=6C63FF&area=true&hide_border=true" alt="Contribution Graph"/>
+</details>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🎯 What I Bring to AI Teams
+
+<div align="center">
 
 | Need | What I Do | Proven By |
 |:-----|:----------|:----------|
@@ -51,7 +97,9 @@
 | **Multimodal AI?** | Vision + Audio + Text fusion | Medical Chatbot, Audio-RAG |
 | **Research Background?** | Academic rigor + industry execution | 1 Patent + 1 Published Paper |
 
----
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🧠 Skills & Tech Stack
 
@@ -75,18 +123,34 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### Additional Tech
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
 
 </div>
 
-**Programming:** Python · JavaScript · C++ · SQL  
-**Languages Spoken:** English · Hindi · Telugu · Kannada · Japanese (Intermediate)
+**🌐 Languages Spoken:** English · Hindi · Telugu · Kannada · Japanese (Intermediate)
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🧩 Featured AI Projects
 
-### ⚖️ [Compliance-GPT](https://github.com/HemantSudarshan/Compliance-GPT) — Zero-Hallucination RAG for Regulatory Compliance
+<div align="center">
+
+### ⚖️ [Compliance-GPT](https://github.com/HemantSudarshan/Compliance-GPT)
+**Zero-Hallucination RAG for Regulatory Compliance**
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Live%20Demo-success?style=flat-square"/>
+
+</div>
 
 > **Problem:** Legal/compliance teams waste hours manually searching regulations  
 > **Solution:** RAG system with citation-backed answers for GDPR, CCPA, PCI-DSS
@@ -94,11 +158,27 @@
 - 🔗 **Tech:** FastAPI · Weaviate (BM25 + semantic) · Groq LLM · Docker
 - ✨ Every answer includes source citations — no hallucinations
 - 📊 *(Add accuracy/latency metrics once measured)*
-- 🚀 [Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)
+- 🚀 **[Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)**
+
+<details>
+<summary>📸 <b>Screenshots</b></summary>
+<br>
+<p align="center"><i>Demo screenshots to be added</i></p>
+</details>
 
 ---
 
-### 🎙️ [AudioRaG Enterprise](https://github.com/HemantSudarshan/AudioRaG_FTSambanova) — Enterprise Audio Intelligence
+<div align="center">
+
+### 🎙️ [AudioRaG Enterprise](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
+**Enterprise Audio Intelligence System**
+
+<img src="https://img.shields.io/badge/LlamaIndex-7C3AED?style=flat-square"/>
+<img src="https://img.shields.io/badge/Qdrant-FF6B6B?style=flat-square"/>
+<img src="https://img.shields.io/badge/AssemblyAI-0066FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Llama_3.1-0467DF?style=flat-square"/>
+
+</div>
 
 > **Problem:** Organizations can't query insights from audio/meeting recordings  
 > **Solution:** Full audio RAG pipeline with speaker diarization
@@ -109,7 +189,16 @@
 
 ---
 
-### 👁️ [Vision-Audio Medical Chatbot](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot) — Multimodal Healthcare AI
+<div align="center">
+
+### 👁️ [Vision-Audio Medical Chatbot](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot)
+**Multimodal Healthcare AI Assistant**
+
+<img src="https://img.shields.io/badge/Vision_AI-4285F4?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Healthcare-E91E63?style=flat-square"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+
+</div>
 
 > **Problem:** Patients need accessible, multimodal health information  
 > **Solution:** Chatbot combining medical image analysis + voice consultation
@@ -120,7 +209,16 @@
 
 ---
 
-### 📖 [Narrative Transformer](https://github.com/HemantSudarshan/narrative-transformer) — AI Story Genre Transformation
+<div align="center">
+
+### 📖 [Narrative Transformer](https://github.com/HemantSudarshan/narrative-transformer)
+**AI-Powered Story Genre Transformation**
+
+<img src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/NLP-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/LLMs-6C63FF?style=flat-square"/>
+
+</div>
 
 > **Problem:** Creative writers need tools to reimagine stories across genres  
 > **Solution:** Multi-stage LLM pipeline with novel "Narrative Tension Index"
@@ -130,7 +228,16 @@
 
 ---
 
-### 🛡️ [AntiAi Platform](https://github.com/HemantSudarshan/AntiAi) — Deepfake & Fake News Detection
+<div align="center">
+
+### 🛡️ [AntiAi Platform](https://github.com/HemantSudarshan/AntiAi)
+**Deepfake & Fake News Detection**
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/Computer_Vision-00ADD8?style=flat-square"/>
+<img src="https://img.shields.io/badge/Gradio-FF7C00?style=flat-square"/>
+
+</div>
 
 > **Problem:** Disinformation spreads faster than fact-checkers can respond  
 > **Solution:** Multimodal detection for deepfakes + AI-generated content
@@ -140,7 +247,16 @@
 
 ---
 
-### 🏠 [AI Real Estate Agent](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-) — Property Analysis Platform
+<div align="center">
+
+### 🏠 [AI Real Estate Agent](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-)
+**Property Analysis Platform**
+
+<img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firecrawl-00C9A7?style=flat-square"/>
+
+</div>
 
 > **Problem:** Property research is manual and time-consuming  
 > **Solution:** AI-powered search with automated data extraction
@@ -148,12 +264,13 @@
 - 🔗 **Tech:** Gemini AI · Firecrawl API · Streamlit
 - 📊 Real-time property insights from 99acres, Housing.com, Square Yards
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📚 More Projects by Category
 
 <details>
 <summary><b>🔊 Audio & Speech AI</b></summary>
+<br>
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
@@ -164,6 +281,7 @@
 
 <details>
 <summary><b>🏥 Healthcare AI</b></summary>
+<br>
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
@@ -174,6 +292,7 @@
 
 <details>
 <summary><b>📄 Document Intelligence</b></summary>
+<br>
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
@@ -185,6 +304,7 @@
 
 <details>
 <summary><b>🌐 Full-Stack Apps</b></summary>
+<br>
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
@@ -193,34 +313,52 @@
 
 </details>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💼 Professional Experience
 
+<table>
+<tr>
+<td width="50%">
+
 ### 🏢 AI Operations & Localization Consultant
-**Pratilipi Comics** · Aug 2025 – Present
+**Pratilipi Comics** · *Aug 2025 – Present*
 
 - Leading AI-driven localization initiatives for Indic language content
 - Building GenAI pipelines serving 600M+ potential Indic users
 - Optimizing content delivery workflows with custom AI tools
 
+</td>
+<td width="50%">
+
 ### 🤖 Localization Operations & Gen AI Intern
-**Pratilipi Comics** · Feb 2025 – Aug 2025
+**Pratilipi Comics** · *Feb 2025 – Aug 2025*
 
 - Developed GenAI tools for multi-language content localization
 - Automated translation and localization workflows
 - Contributed to cost reduction and workflow acceleration
 
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
 ### 🎓 Machine Learning Intern
-**AppiVa Software Pvt Ltd** (NASSCOM 10K Startup) · Aug 2023 – Sep 2023
+**AppiVa Software Pvt Ltd** (NASSCOM 10K Startup) · *Aug 2023 – Sep 2023*
 
 - Built data preprocessing and analytics pipelines
 - Developed and optimized ML models for production
 - First hands-on experience with production ML systems
 
----
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📜 Patents & Publications
+
+<div align="center">
 
 | Type | Title | Status |
 |:-----|:------|:-------|
@@ -228,37 +366,54 @@
 | 🎤 **Conference** | *Discovering Insights into Heart Health: A Survey of Data Mining and Machine Learning Methods* | Presented at ICCICCT 2023, IIT Kharagpur |
 | 📝 **Research** | *An Examination of Different Deep Learning Models for Transparent Identification of Tomato Leaf Diseases* | Accepted for Publication |
 
----
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🎓 Education
 
-**B.Tech in Computer Science & Technology**  
-Dayananda Sagar University · First Class · 2021–2025
+<div align="center">
 
-**Higher Secondary (HSC)** — Narayana Junior College · CGPA: 9.12
+**🎓 B.Tech in Computer Science & Technology**  
+*Dayananda Sagar University* · First Class · 2021–2025
 
----
+**📚 Higher Secondary (HSC)** — Narayana Junior College · CGPA: 9.12
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🌱 Currently Exploring
 
-`AI Agents & Multi-Agent Systems` · `Advanced Prompt Engineering` · `AI Security & Red Teaming` · `Multilingual NLP (Hindi/Telugu/Kannada)` · `Japanese Language`
+<div align="center">
 
----
+`🔬 AI Agents & Multi-Agent Systems` · `🧬 Advanced Prompt Engineering` · `🔐 AI Security & Red Teaming`  
+`🌍 Multilingual NLP (Hindi/Telugu/Kannada)` · `🇯🇵 Japanese Language (Intermediate)`
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🤝 Let's Connect
 
 <div align="center">
 
-**Open to:** AI/ML Engineer · LLM Specialist · RAG Systems Architect · AI Agent Developer  
-**Location:** Bengaluru, India (Open to Remote)
+**🎯 Open to:** AI/ML Engineer · LLM Specialist · RAG Systems Architect · AI Agent Developer  
+**📍 Location:** Bengaluru, India (Open to Remote)
+
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-HemantSudarshan-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HemantSudarshan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
 [![Email](https://img.shields.io/badge/Email-hemantsudarshan@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Hemantxai-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
 
----
+<br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+💡 **"Building AI that understands, reasons, and delivers real-world impact"**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
 </div>
