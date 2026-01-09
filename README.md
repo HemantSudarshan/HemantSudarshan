@@ -250,10 +250,10 @@
 ![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-- ✨ **99.2% accuracy** with citation-backed answers
+- ✨ **Zero-Hallucination** with citation-backed answers
 - ⚡ BM25 + semantic hybrid search
 - 📋 GDPR, CCPA, PCI-DSS support
-- 🔥 **80% reduction** in research time
+- 🔥 **Automated** regulatory research
 
 [🔗 Repo](https://github.com/HemantSudarshan/Compliance-GPT) • [🚀 Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)
 
@@ -337,8 +337,8 @@
 
 - 🤖 Gemini AI for investment insights
 - 🔥 Firecrawl API automated data extraction
-- 🗄️ Dual-database architecture (MongoDB + PostgreSQL)
-- ☁️ AWS/GCP deployment ready
+- � Interactive Streamlit Interface
+- 🏘️ Real-time property analysis
 
 [🔗 View Project](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-)
 
