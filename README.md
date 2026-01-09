@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hemant%20Sudarshan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20LLM%20Architect%20%7C%20RAG%20Specialist&descAlignY=52&descSize=18"/>
 
   <!-- Dynamic Roles -->
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+Production-Ready+AI+Systems;99.2%25+Accuracy+in+RAG+Systems;Sub-500ms+API+Response+Times)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Building+Production-Ready+AI+Systems;RAG+%7C+LLMs+%7C+AI+Agents;Full-Stack+AI+Developer)
 
 </div>
 
@@ -41,10 +41,10 @@
 <td width="50%">
 
 ### :trophy: Key Achievements
-- :rocket: **15+ Production AI Systems** deployed
-- :dart: **99.2% Accuracy** in RAG systems
-- :zap: **<500ms Response Times** for APIs
-- :chart_with_upwards_trend: **80% Time Reduction** in research workflows
+- :rocket: **6+ AI/ML Projects** built & deployed
+- :dart: **RAG Systems** with high accuracy
+- :zap: **Production-Ready APIs** with FastAPI
+- :chart_with_upwards_trend: **End-to-end AI Pipelines**
 - :scroll: **1 Patent Filed + 1 Paper Published**
 
 </td>
@@ -132,9 +132,9 @@
 
 | Need | Solution | Proof |
 |:-----|:---------|:------|
-| **Build RAG Systems?** | Production-ready with zero hallucination | 99.2% accuracy, 80% time savings |
-| **Fine-tune LLMs?** | End-to-end training & optimization | Llama 3.1, GPT-4, Claude experience |
-| **Ship to Production?** | Battle-tested deployment skills | 15+ systems running in production |
+| **Build RAG Systems?** | Production-ready with citations | Compliance-GPT, AudioRaG projects |
+| **Work with LLMs?** | Hands-on integration & prompting | GPT-4, Claude, Llama, Gemini experience |
+| **Ship to Production?** | Full-stack deployment skills | 6+ deployed AI projects |
 | **Research Background?** | Academic + industry blend | 1 Patent + 1 Published Paper |
 | **Fresh Perspective?** | 2025 CS graduate with latest AI trends | Hands-on with GPT-4o, Claude 3.5, Gemini 2.0 |
 
@@ -313,18 +313,18 @@
 <tr>
 <td width="50%">
 
-### 🛡️ [Anti FAKE - Deepfake Detector](https://github.com/HemantSudarshan/Anti-FAKE)
+### 🛡️ [AntiAi - Deepfake & Fact-Check Platform](https://github.com/HemantSudarshan/AntiAi)
 **Multimodal Disinformation Detection System**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Computer Vision](https://img.shields.io/badge/CV-00ADD8?style=flat-square)
 
-- 🔍 MTCNN facial detection
-- 🧠 InceptionResnetV1 + GradCAM explainability
-- 📰 ML classifiers for fake news (RF, LR)
-- ✅ IFCN-certified source verification
+- 🔍 Deepfake detection with Gradio interface
+- 📰 Fake news classification with ML models
+- ✅ IFCN-certified fact-checking partners
+- 🧠 AI/Human-authored content verification
 
-[🔗 View Project](https://github.com/HemantSudarshan/Anti-FAKE)
+[🔗 View Project](https://github.com/HemantSudarshan/AntiAi)
 
 </td>
 <td width="50%">
@@ -427,7 +427,7 @@
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
-| [Edu-Connect-Dev](https://github.com/HemantSudarshan/Edu-Connect-Dev) | Educational platform | React, Node.js, MongoDB |
+| [Edu-Connect-Dev](https://github.com/HemantSudarshan/Edu-Connect-Dev) | Educational platform | React |
 | [gdp-dashboard](https://github.com/HemantSudarshan/gdp-dashboard) | Data visualization | Streamlit |
 | [AI-Real-Estate-Agent](https://github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-) | Property analysis AI | AI, ML |
 
