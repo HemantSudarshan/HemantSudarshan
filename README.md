@@ -4,8 +4,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=HemantSudarshan&color=6C63FF&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/HemantSudarshan?label=Followers&style=for-the-badge&color=6C63FF&labelColor=1a1a2e" alt="GitHub Followers"/>
-  <img src="https://img.shields.io/github/stars/HemantSudarshan?label=Total%20Stars&style=for-the-badge&color=FFD21E&labelColor=1a1a2e" alt="GitHub Stars"/>
 </p>
 
 [![Open to Work](https://img.shields.io/badge/🟢_Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
