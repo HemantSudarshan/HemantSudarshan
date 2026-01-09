@@ -1,8 +1,5 @@
 <div align="center">
-
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,6C63FF,FFD21E&height=220&section=header&text=Hemant%20Sudarshan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Engineer%20·%20LLM%20%26%20RAG%20Specialist%20·%20Production%20AI%20Systems&descAlignY=55&descSize=18"/>
-
+  
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+Production-Ready+AI+Systems;RAG+·+LLMs+·+AI+Agents+·+Multimodal+AI;For+Real-World+Impact+🚀)
 
 <p align="center">
