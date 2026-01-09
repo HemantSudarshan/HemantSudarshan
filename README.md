@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hemant%20Sudarshan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI/ML%20Engineer%20·%20LLM%20%26%20RAG%20Specialist%20·%20Production%20AI%20Systems&descAlignY=55&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,6C63FF,FFD21E&height=220&section=header&text=Hemant%20Sudarshan&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Engineer%20·%20LLM%20%26%20RAG%20Specialist%20·%20Production%20AI%20Systems&descAlignY=55&descSize=18"/>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=70&lines=Building+Production-Ready+AI+Systems;RAG+·+LLMs+·+AI+Agents+·+Multimodal+AI;For+Real-World+Impact+🚀)
 
@@ -62,11 +62,20 @@
 
 | Principle | Why It Matters | How I Apply It |
 |:----------|:---------------|:---------------|
-| 🚀 **Shipping > Perfection** | Anyone can run notebooks. Few can ship monitored, production-grade systems. | Every project I build has deployment-ready architecture from day one. |
-| 🔒 **Zero Hallucination** | 33% of AI deployments fail because of trust issues. | My RAG systems use citation-backed answers — every claim is traceable. |
+| 🚀 **Shipping > Perfection** | Anyone can run notebooks. Few can ship monitored, production-grade systems. | Every project I build has deployment-ready architecture (Docker, FastAPI) from day one. |
+| 🔒 **Zero Hallucination** | 33% of AI deployments fail because of trust issues. | My RAG systems use citation-backed answers — every claim is traceable to a source. |
 | 🌍 **Indic AI First** | 600M+ Hindi/Telugu/Kannada speakers, <0.1% AI coverage. | Building localization pipelines at Pratilipi for underserved language users. |
-| ⚡ **Latency is UX** | Users don't wait. If it's slow, it's broken. | Hybrid search (BM25 + semantic), caching, and optimized inference pipelines. |
+| ⚡ **Latency is UX** | Users don't wait. If it's slow, it's broken. | Hybrid search (BM25 + semantic), caching, and optimized inference pipelines to ensure sub-second response times. |
 | 🧪 **Measure Everything** | Can't improve what you can't measure. | RAGAS evaluation, latency monitoring, accuracy benchmarks in every project. |
+
+### 🚀 Vision & Future Goals (5-Year Plan)
+
+> **Goal:** To evolve into a full-fledged **AI/ML Architect** specializing in **AI Ops, MLOps, and LLMOps**, building the stable, scalable backends that power the next generation of AI systems.
+
+I am not just building models; I am building the *infrastructure* that makes them reliable. My roadmap focuses on:
+*   **AI Ops & Observability:** Mastering the art of monitoring, logging, and debugging complex AI pipelines in production.
+*   **LLM Ops:** Building robust evaluation frameworks and deployment pipelines for Large Language Models.
+*   **Scalable Backends:** Architecting distributed systems that can handle millions of inferences with high availability.
 
 ### My Approach to Building AI
 
