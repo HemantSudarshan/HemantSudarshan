@@ -14,7 +14,7 @@
 [![Open to Work](https://img.shields.io/badge/🟢_Actively_Seeking-AI%2FML_Roles-00D4AA?style=for-the-badge&labelColor=1a1a2e)](mailto:hemantsudarshan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Hemantxai-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
+[![Email](https://img.shields.io/badge/Email-collabwithhemantgenai@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:collabwithhemantgenai@gmail.com)
 
 </div>
 
@@ -389,7 +389,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-HemantSudarshan-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HemantSudarshan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hemant-sudarshan-01633928a)
-[![Email](https://img.shields.io/badge/Email-hemantsudarshan@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hemantsudarshan@gmail.com)
+[![Email](https://img.shields.io/badge/Email-collabwithhemantgenai@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:collabwithhemantgenai@gmail.com)
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-Hemantxai-FFD21E?style=for-the-badge)](https://huggingface.co/Hemantxai)
 
 <br>
