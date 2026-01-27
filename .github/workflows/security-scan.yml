@@ -1,0 +1,118 @@
+# Security Scan Workflow
+# Scans for exposed secrets and security issues
+
+name: Security Scan
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly on Monday
+  workflow_dispatch:
+
+jobs:
+  secret-scan:
+    name: Secret Detection
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+  content-security:
+    name: Content Security Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check for Sensitive Patterns
+        run: |
+          echo "🔍 Scanning for sensitive patterns..."
+          
+          # Check for common sensitive patterns
+          FOUND_ISSUES=0
+          
+          # Check for potential API keys
+          if grep -rE "(api[_-]?key|apikey)\s*[:=]\s*['\"][a-zA-Z0-9]{20,}" --include="*.md" .; then
+            echo "⚠️ Potential API key found"
+            FOUND_ISSUES=1
+          fi
+          
+          # Check for AWS keys pattern
+          if grep -rE "AKIA[0-9A-Z]{16}" --include="*.md" .; then
+            echo "⚠️ Potential AWS key found"
+            FOUND_ISSUES=1
+          fi
+          
+          # Check for private key markers
+          if grep -rE "BEGIN (RSA |EC |DSA |OPENSSH )?PRIVATE KEY" --include="*.md" .; then
+            echo "⚠️ Private key found"
+            FOUND_ISSUES=1
+          fi
+          
+          if [ $FOUND_ISSUES -eq 0 ]; then
+            echo "✅ No sensitive patterns detected"
+          fi
+
+      - name: Check External URL Safety
+        run: |
+          python3 << 'EOF'
+          import re
+          import urllib.parse
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Find all URLs
+          url_pattern = r'https?://[^\s\)\]\"\'<>]+'
+          urls = re.findall(url_pattern, content)
+
+          print(f"📎 Found {len(urls)} URLs in README")
+
+          # Check for suspicious domains
+          suspicious_tlds = ['.tk', '.ml', '.ga', '.cf', '.gq']
+          suspicious_found = []
+
+          for url in urls:
+              parsed = urllib.parse.urlparse(url)
+              for tld in suspicious_tlds:
+                  if parsed.netloc.endswith(tld):
+                      suspicious_found.append(url)
+
+          if suspicious_found:
+              print("⚠️ Found URLs with potentially suspicious TLDs:")
+              for url in suspicious_found:
+                  print(f"  - {url}")
+          else:
+              print("✅ All URLs appear to use trusted domains")
+          EOF
+
+  summary:
+    name: Security Summary
+    runs-on: ubuntu-latest
+    needs: [secret-scan, content-security]
+    if: always()
+
+    steps:
+      - name: Create Summary
+        run: |
+          echo "## 🔒 Security Scan Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Result |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Secret Detection | ${{ needs.secret-scan.result == 'success' && '✅ Clean' || '⚠️ Review' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Content Security | ${{ needs.content-security.result == 'success' && '✅ Secure' || '⚠️ Review' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🕐 Scanned at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY

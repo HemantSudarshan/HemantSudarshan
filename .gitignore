@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
+
+# Temporary files
+*.tmp
+*.bak
+create_*_resume.py
+
+# Old resume versions (keep only /resume folder)
+Hemant_ResumeFinal1.pdf.pdf
+Hemant_Sudarshan_ATS_Resume.docx
+Hemant_Sudarshan_ATS_Resume.txt

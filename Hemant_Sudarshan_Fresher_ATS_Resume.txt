@@ -1,0 +1,148 @@
+HEMANT SUDARSHAN
+AI/ML Engineer | LLM & RAG Specialist
+
+CONTACT INFORMATION
+Email: hemantsudarshan@gmail.com | collabwithhemantgenai@gmail.com
+LinkedIn: linkedin.com/in/hemant-sudarshan-01633928a
+GitHub: github.com/HemantSudarshan
+Hugging Face: huggingface.co/Hemantxai
+Location: Bengaluru, India
+Languages: English, Hindi, Telugu, Kannada, Japanese (Intermediate)
+
+CAREER OBJECTIVE
+Recent Computer Science graduate with strong foundation in AI/ML, specializing in Large Language Models, RAG systems, and production AI deployments. Seeking opportunities as AI/ML Engineer to leverage hands-on experience in building 6+ production-ready AI systems, including zero-hallucination RAG pipelines and multimodal AI applications. Passionate about building scalable AI solutions with proven track record through internships, academic research (1 patent, 2 publications), and live deployed projects.
+
+EDUCATION
+
+Bachelor of Technology in Computer Science & Technology
+Dayananda Sagar University, Bengaluru | 2021 - 2025 | First Class
+Relevant Coursework: Machine Learning, Deep Learning, Natural Language Processing, Data Structures, Algorithms
+
+Higher Secondary Certificate (HSC)
+Narayana Junior College | CGPA: 9.12/10
+
+TECHNICAL SKILLS
+
+Programming Languages: Python, JavaScript, C++, SQL
+Machine Learning & AI: PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers
+Large Language Models: GPT-4o, Claude 3.5, Llama 3.1, Gemini 2.0, Groq
+RAG Frameworks: LangChain, LlamaIndex
+Vector Databases: Weaviate, Qdrant, Pinecone, ChromaDB
+API Development: FastAPI, Flask, REST APIs
+DevOps & Deployment: Docker, AWS, CI/CD, Git
+Frontend Frameworks: Streamlit, Gradio, React
+Database Technologies: SQL, SQLAlchemy, SQLite, Redis, PostgreSQL
+AI Operations: Prompt Engineering, Model Evaluation (RAGAS), MLOps, LLMOps
+Specialized AI: Audio Processing (AssemblyAI), Computer Vision, Multimodal AI, NLP
+
+INTERNSHIP EXPERIENCE
+
+AI Operations & Localization Consultant
+Pratilipi Comics | Aug 2025 - Present | Remote
+- Leading AI-driven localization initiatives for Indic language content (Hindi, Telugu, Kannada) targeting 600M+ potential users
+- Architected GenAI pipelines for automated multi-language content localization using LLMs and prompt engineering
+- Optimized content delivery workflows with custom AI tools, implementing caching and batch processing strategies
+- Developed end-to-end AI operations infrastructure for production-grade localization systems
+
+Localization Operations & Gen AI Intern
+Pratilipi Comics | Feb 2025 - Aug 2025 | Remote
+- Developed GenAI tools for multi-language content localization and automated translation workflows
+- Implemented prompt engineering strategies for context-aware translation systems using GPT-4 and Claude
+- Contributed to workflow acceleration through automation, reducing manual translation time
+- Collaborated with cross-functional teams to integrate AI systems into production pipelines
+
+Machine Learning Intern
+AppiVa Software Pvt Ltd (NASSCOM 10K Startup) | Aug 2023 - Sep 2023 | Bangalore
+- Built data preprocessing and analytics pipelines for production ML systems
+- Developed and optimized machine learning models for deployment in real-world applications
+- Gained hands-on experience with production ML infrastructure, model monitoring, and version control
+
+PROJECTS
+
+Compliance-GPT | Zero-Hallucination RAG System for Regulatory Compliance
+Technologies: FastAPI, Weaviate, Groq LLM, Docker
+GitHub: github.com/HemantSudarshan/Compliance-GPT
+Live Demo: huggingface.co/spaces/Hemantxai/compliance-gpt
+- Built production-ready RAG system with citation-backed answers for GDPR, CCPA, and PCI-DSS regulations
+- Implemented hybrid search combining BM25 and semantic search for optimal retrieval accuracy
+- Deployed containerized system with Docker, health monitoring, and REST API endpoints
+- Achieved zero-hallucination architecture by enforcing source citations for every response
+
+AudioRAG Enterprise | Enterprise Audio Intelligence System
+Technologies: LlamaIndex, Qdrant, AssemblyAI, Llama 3.1 405B
+GitHub: github.com/HemantSudarshan/AudioRaG_FTSambanova
+- Developed full audio RAG pipeline with speaker diarization and multi-speaker support
+- Implemented BGE-large embeddings (1024 dimensions) for semantic audio search and retrieval
+- Built enterprise features including authentication, multi-tenancy, analytics, and batch processing
+- Created REST API with comprehensive audit logging and health checks for production deployment
+
+Vision-Audio Medical Chatbot | Multimodal Healthcare AI Assistant
+Technologies: Vision AI, Speech Recognition, Python, NLP
+GitHub: github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot
+- Built multimodal healthcare chatbot combining medical image analysis with voice consultation capabilities
+- Implemented domain-specific knowledge base for accurate medical information retrieval
+- Designed privacy-focused architecture for handling sensitive health data with security best practices
+
+Narrative Transformer | AI-Powered Story Genre Transformation
+Technologies: Transformers, LLMs, NLP, OpenRouter API
+GitHub: github.com/HemantSudarshan/narrative-transformer
+- Developed multi-stage LLM pipeline for creative story genre transformation (e.g., romance to thriller)
+- Invented novel "Narrative Tension Index" (NTI) metric for quantitatively measuring story engagement
+- Implemented genre-specific style analysis and automated transformation workflows
+- Successfully transformed narratives while preserving core plot elements and character consistency
+
+AntiAI Platform | Deepfake & Fake News Detection System
+Technologies: PyTorch, Computer Vision, Gradio, Machine Learning
+GitHub: github.com/HemantSudarshan/AntiAi
+- Built multimodal detection system for identifying deepfakes and AI-generated content
+- Integrated IFCN-certified fact-checking sources for automated news verification
+- Developed real-time analysis pipeline using computer vision and ML classifiers
+- Created user-friendly Gradio interface for easy accessibility
+
+AI Real Estate Agent | Intelligent Property Analysis Platform
+Technologies: Gemini AI, Firecrawl API, Streamlit, SQLAlchemy, Redis
+GitHub: github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-
+- Created AI-powered property search with automated data extraction from major real estate portals
+- Implemented investment analysis agent with ROI calculations and market trend predictions
+- Built Redis caching service to reduce API costs and improve response times
+- Developed SQLite database with SQLAlchemy models for property persistence and search history
+
+Additional Projects:
+- Audio-RAG-Analyzer: Audio content analysis with RAG pipeline
+- Healthcare ChatBot: Domain-specific healthcare assistant with NLP
+- LLM-Based PDF Processor: Intelligent PDF processing and question-answering system
+- Text Summarizer: Advanced text summarization using transformer models
+- Edu-Connect-Dev: Educational platform built with React
+
+PATENTS & PUBLICATIONS
+
+Patent (Filed)
+"A System for Providing Security Using a Plurality of Factors for IoT Gadgets"
+Indian Patent Office | Patent No. 202341040746
+
+Conference Paper
+"Discovering Insights into Heart Health: A Survey of Data Mining and Machine Learning Methods"
+Presented at ICCICCT 2023, IIT Kharagpur
+
+Research Paper (Accepted for Publication)
+"An Examination of Different Deep Learning Models for Transparent Identification of Tomato Leaf Diseases"
+
+ACHIEVEMENTS & CERTIFICATIONS
+
+- Deployed 6+ production-ready AI systems with active users and live demos on Hugging Face
+- Built RAG systems for Indic language localization serving 600M+ potential users
+- Created zero-hallucination architectures with citation-backed responses for enterprise compliance
+- Contributed to open-source AI community with 20+ GitHub repositories
+- Demonstrated end-to-end AI product development from research to production deployment
+- Published 1 patent and 2 research papers during undergraduate studies
+
+AREAS OF INTEREST
+
+AI Agents & Multi-Agent Systems | Advanced Prompt Engineering | AI Security & Red Teaming
+Multilingual NLP for Indic Languages | LLMOps & AI Operations | Production ML Infrastructure
+Retrieval-Augmented Generation (RAG) | Multimodal AI Systems
+
+POSITION SOUGHT
+
+AI/ML Engineer | LLM Engineer | RAG Systems Developer | AI Agent Developer | ML Engineer
+Preference: Full-time opportunities, Remote/Hybrid work, Bengaluru-based roles

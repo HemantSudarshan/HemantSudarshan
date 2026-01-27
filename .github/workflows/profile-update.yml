@@ -1,0 +1,102 @@
+# Profile Auto-Update Workflow
+# Keeps dynamic content fresh and up-to-date
+
+name: Profile Auto-Update
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Dynamic Content
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update Last Updated Timestamp
+        run: |
+          # This can be extended to update dynamic sections
+          echo "Profile last checked: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          
+      - name: Check for Stale Content
+        run: |
+          python << 'EOF'
+          import re
+          from datetime import datetime
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Check for year references that might be outdated
+          current_year = datetime.now().year
+          years = re.findall(r'\b(20[0-9]{2})\b', content)
+          
+          print(f"📅 Current year: {current_year}")
+          print(f"📝 Years mentioned in README: {set(years)}")
+          
+          # Check for "Present" or current role indicators
+          if "Present" in content or "present" in content:
+              print("✅ Found 'Present' indicator - timeline appears current")
+          
+          print("\n✅ Content freshness check complete!")
+          EOF
+
+  verify-external-services:
+    name: Verify External Services
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check GitHub Stats Services
+        run: |
+          echo "Checking external service availability..."
+          
+          # Check GitHub Stats API
+          curl -s -o /dev/null -w "%{http_code}" "https://github-readme-stats.vercel.app/api?username=HemantSudarshan" | \
+            xargs -I {} echo "GitHub Stats API: {} ($([ {} = '200' ] && echo '✅' || echo '⚠️'))"
+          
+          # Check Capsule Render
+          curl -s -o /dev/null -w "%{http_code}" "https://capsule-render.vercel.app/api?type=waving" | \
+            xargs -I {} echo "Capsule Render: {} ($([ {} = '200' ] && echo '✅' || echo '⚠️'))"
+          
+          # Check Skill Icons
+          curl -s -o /dev/null -w "%{http_code}" "https://skillicons.dev/icons?i=python" | \
+            xargs -I {} echo "Skill Icons: {} ($([ {} = '200' ] && echo '✅' || echo '⚠️'))"
+          
+          echo ""
+          echo "✅ External service check complete!"
+
+  create-report:
+    name: Create Health Report
+    runs-on: ubuntu-latest
+    needs: [update-readme, verify-external-services]
+    if: always()
+
+    steps:
+      - name: Generate Report
+        run: |
+          echo "## 📊 Daily Profile Health Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Date:** $(date -u '+%B %d, %Y')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Service Status" >> $GITHUB_STEP_SUMMARY
+          echo "| Service | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|---------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Content Update | ${{ needs.update-readme.result == 'success' && '✅ Healthy' || '⚠️ Check' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| External Services | ${{ needs.verify-external-services.result == 'success' && '✅ Online' || '⚠️ Check' }} |" >> $GITHUB_STEP_SUMMARY

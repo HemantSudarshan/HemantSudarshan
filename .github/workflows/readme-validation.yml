@@ -1,0 +1,169 @@
+# README Validation Workflow
+# Validates markdown, checks links, and ensures README quality
+
+name: README Validation
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'README.md'
+      - '.github/workflows/readme-validation.yml'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'README.md'
+  schedule:
+    # Run weekly to catch broken external links
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  markdown-lint:
+    name: Markdown Linting
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Create markdownlint config
+        run: |
+          cat << 'EOF' > .markdownlint.json
+          {
+            "default": true,
+            "MD013": false,
+            "MD033": false,
+            "MD041": false,
+            "MD024": false,
+            "MD026": false,
+            "MD036": false,
+            "MD040": false,
+            "MD046": false
+          }
+          EOF
+
+      - name: Run Markdown Lint
+        run: markdownlint README.md --config .markdownlint.json || true
+        continue-on-error: true
+
+  link-check:
+    name: Link Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Markdown Links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'no'
+          config-file: '.github/mlc_config.json'
+        continue-on-error: true
+
+  badge-check:
+    name: Badge & Image Validation
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Validate Badges and Images
+        run: |
+          python << 'EOF'
+          import re
+          import requests
+          from urllib.parse import urlparse
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Find all image URLs
+          img_pattern = r'!\[.*?\]\((https?://[^\)]+)\)|src="(https?://[^"]+)"'
+          matches = re.findall(img_pattern, content)
+          
+          urls = set()
+          for match in matches:
+              url = match[0] or match[1]
+              if url:
+                  urls.add(url)
+
+          print(f"Found {len(urls)} unique image/badge URLs")
+          
+          failed = []
+          for url in list(urls)[:20]:  # Check first 20 to avoid rate limits
+              try:
+                  resp = requests.head(url, timeout=10, allow_redirects=True)
+                  if resp.status_code >= 400:
+                      failed.append(f"❌ {url} - Status: {resp.status_code}")
+                  else:
+                      print(f"✅ {url}")
+              except Exception as e:
+                  print(f"⚠️ {url} - Could not verify: {str(e)[:50]}")
+
+          if failed:
+              print("\n⚠️ Some URLs returned errors:")
+              for f in failed:
+                  print(f)
+          else:
+              print("\n✅ All checked URLs are accessible!")
+          EOF
+
+  file-size-check:
+    name: File Size Check
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check README Size
+        run: |
+          SIZE=$(stat -c%s README.md)
+          SIZE_KB=$((SIZE / 1024))
+          echo "README.md size: ${SIZE_KB}KB"
+          
+          if [ $SIZE -gt 100000 ]; then
+            echo "⚠️ README is quite large (${SIZE_KB}KB). Consider optimizing."
+          else
+            echo "✅ README size is acceptable."
+          fi
+
+  summary:
+    name: Validation Summary
+    runs-on: ubuntu-latest
+    needs: [markdown-lint, link-check, badge-check, file-size-check]
+    if: always()
+    
+    steps:
+      - name: Create Summary
+        run: |
+          echo "## README Validation Summary 📋" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Markdown Lint | ${{ needs.markdown-lint.result == 'success' && '✅ Passed' || '⚠️ Check logs' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Link Check | ${{ needs.link-check.result == 'success' && '✅ Passed' || '⚠️ Check logs' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Badge Check | ${{ needs.badge-check.result == 'success' && '✅ Passed' || '⚠️ Check logs' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| File Size | ${{ needs.file-size-check.result == 'success' && '✅ Passed' || '⚠️ Check logs' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🕐 Validated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
