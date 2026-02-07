@@ -1,0 +1,275 @@
+HEMANT SUDARSHAN
+AI/ML Engineer | LLM & RAG Systems Specialist | Agentic AI & LLMOps
+
+================================================================================
+CONTACT INFORMATION
+================================================================================
+Email: hemantsudarshan@gmail.com | collabwithhemantgenai@gmail.com
+LinkedIn: linkedin.com/in/hemant-sudarshan-01633928a
+GitHub: github.com/HemantSudarshan
+Hugging Face: huggingface.co/Hemantxai
+Portfolio: github.com/HemantSudarshan
+Location: Bengaluru, India | Open to Remote
+Languages: English, Hindi, Telugu, Kannada, Japanese (Intermediate)
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+AI/ML Engineer with proven expertise in building production-ready AI systems, specializing in Large Language Models, RAG architectures, and multi-agent systems. Successfully deployed 6+ enterprise-grade AI applications with active users, including zero-hallucination compliance systems and autonomous inventory management agents. Strong foundation in LLMOps, MLOps, and end-to-end AI product development from research to production. Published 1 patent and 2 research papers. Currently driving AI localization initiatives for 600M+ Indic language users at Pratilipi Comics.
+
+================================================================================
+EDUCATION
+================================================================================
+Bachelor of Technology in Computer Science & Technology
+Dayananda Sagar University, Bengaluru | 2021 - 2025 | First Class
+Relevant Coursework: Machine Learning, Deep Learning, NLP, AI Agents, Data Structures, Algorithms
+
+Higher Secondary Certificate (HSC)
+Narayana Junior College | CGPA: 9.12/10
+
+================================================================================
+TECHNICAL SKILLS
+================================================================================
+
+Core Programming & Development
+Python (Advanced), JavaScript, C++, SQL, REST API Development
+
+Large Language Models & AI Frameworks
+GPT-4o, Claude 3.5 Sonnet, Llama 3.1, Gemini 2.0, Groq, Mixtral
+LangChain, LangGraph, LlamaIndex, Hugging Face Transformers
+
+Vector Databases & Retrieval Systems
+Weaviate (BM25 + Semantic Hybrid Search), Qdrant (HNSW Indexing), Pinecone, ChromaDB
+RAG Architecture Design, Citation-Backed Generation, Query Expansion
+
+Machine Learning & Deep Learning
+PyTorch, TensorFlow, Scikit-learn, EfficientNet, Computer Vision (MTCNN, GradCAM)
+Time-Series Forecasting (ARIMA, SARIMA), Ensemble Learning
+
+Backend & API Development
+FastAPI (Async/Await, Pydantic Validation), Flask, WebSocket Streaming
+Rate Limiting (SlowAPI), Session Management, JWT Authentication, RBAC
+
+Databases & Caching
+MongoDB Atlas, PostgreSQL, SQLite, Redis Cluster, SQLAlchemy ORM
+Multi-Tenant Data Isolation, Audit Logging
+
+DevOps & Production Infrastructure
+Docker (Multi-stage Builds), Docker Compose, CI/CD (GitHub Actions)
+AWS, Railway.app, Prometheus Metrics, Health Check Monitoring
+
+AI Operations (LLMOps/MLOps)
+Prompt Engineering, Model Evaluation (RAGAS, BLEU, ROUGE), LangSmith Tracing
+Confidence Calibration, Human-in-Loop Workflows, A/B Testing
+
+Specialized AI Capabilities
+Audio Processing (AssemblyAI Speaker Diarization), Multimodal AI (Vision + Audio + Text)
+Multilingual NLP (Hindi/Telugu/Kannada), Explainable AI (LIME, SHAP, GradCAM)
+
+Frontend Development
+Streamlit, Gradio, React, TypeScript, Real-Time UI Updates
+
+================================================================================
+PROFESSIONAL EXPERIENCE
+================================================================================
+
+AI Operations & Localization Consultant
+Pratilipi Comics | Aug 2025 - Present | Remote
+• Leading end-to-end AI-driven localization for Indic language content (Hindi, Telugu, Kannada), targeting 600M+ users
+• Architected GenAI pipelines with prompt engineering for context-aware translation using GPT-4 and Claude
+• Designed production-grade AI infrastructure with caching strategies, batch processing, and monitoring
+• Optimized content delivery workflows, reducing manual translation overhead by 70%+ through automation
+• Implemented LLMOps best practices: prompt versioning, A/B testing, and quality evaluation frameworks
+
+Localization Operations & Gen AI Intern
+Pratilipi Comics | Feb 2025 - Aug 2025 | Remote
+• Developed GenAI tools for multi-language content localization with automated translation workflows
+• Implemented advanced prompt engineering strategies for domain-specific translation accuracy
+• Integrated AI systems into production pipelines with cross-functional collaboration
+• Contributed to workflow acceleration, reducing translation time from hours to minutes
+
+Machine Learning Intern
+AppiVa Software Pvt Ltd (NASSCOM 10K Startup) | Aug 2023 - Sep 2023 | Bangalore
+• Built data preprocessing and feature engineering pipelines for production ML systems
+• Developed and optimized machine learning models with hyperparameter tuning and cross-validation
+• Gained hands-on production experience: model versioning, monitoring, CI/CD integration
+
+================================================================================
+KEY PROJECTS (PRODUCTION-READY AI SYSTEMS)
+================================================================================
+
+1. Agentic Inventory Restocking Service | Multi-Agent AI with Human-in-Loop
+Technologies: LangGraph, FastAPI, MongoDB Atlas, Gemini 2.0, Groq, Redis, Telegram API
+GitHub: github.com/HemantSudarshan/Agentic-Inventory-Restocking-Service
+Live Demo: agentic-inventory-restocking-servic-production.up.railway.app/login
+
+• Architected autonomous 3-step agentic workflow: Data Retrieval → AI Reasoning → Action Generation
+• Implemented dual-model fallback system (Gemini 2.0 + Groq) achieving 99.9% uptime with auto-failover
+• Built safety stock calculations using statistical forecasting to distinguish crisis vs. natural demand decline
+• Designed confidence scoring mechanism (0-100%) with human-in-loop for <95% confidence orders via Telegram
+• Integrated multi-channel notifications: Telegram bot (inline approve/reject), Slack webhooks, web dashboard
+• Deployed with production standards: Docker containerization, rate limiting (30 req/min), LangSmith tracing
+• Technical Highlights: Async FastAPI, MongoDB replication, Redis caching, session-based auth, cost optimization
+
+2. Compliance-GPT | Zero-Hallucination RAG for Enterprise Compliance
+Technologies: FastAPI, Weaviate, Groq LLM, Docker, Prometheus
+GitHub: github.com/HemantSudarshan/Compliance-GPT
+Live Demo: huggingface.co/spaces/Hemantxai/compliance-gpt
+
+• Engineered enterprise RAG system delivering citation-backed compliance answers in <2 seconds (vs 20+ min manual)
+• Implemented hybrid search combining BM25 keyword matching + semantic vectors (1,987+ regulation chunks)
+• Architected query expansion pipeline: "breach" → ["Article 33" + "72 hours" + "notification" + "GDPR"]
+• Built zero-hallucination architecture: every claim traceable to source document (file, page, character offset)
+• Deployed with enterprise security: rate limiting, HTTPS enforcement, CORS protection, admin auth, audit logs
+• Integrated web search fallback (DuckDuckGo → official EDPB/ICO sources) for evolving regulations
+• Achieved 80+ passing tests with CI/CD pipeline (GitHub Actions), Docker Compose for local development
+• Technical Highlights: Response caching (5min TTL), Pydantic validation, Prometheus metrics, health checks
+
+3. AudioRAG Enterprise | Multi-Tenant Audio Intelligence with RBAC
+Technologies: AssemblyAI, Qdrant, SambaNova LLM, Redis, PostgreSQL, Celery, FastAPI
+GitHub: github.com/HemantSudarshan/AudioRaG_FTSambanova
+
+• Developed full-stack audio RAG platform: transcription → speaker diarization → semantic search → AI synthesis
+• Implemented multi-tenant security: JWT authentication, RBAC (Admin/Analyst/Viewer), payload-based data isolation
+• Architected 3-layer storage: Redis cache (sub-ms lookups), PostgreSQL (audit logs), Qdrant (vector search)
+• Integrated AssemblyAI for 99% WER speech-to-text with speaker identification and PII redaction (HIPAA/GDPR)
+• Built BGE-Large 1024-dim embeddings with HNSW indexing for fast nearest-neighbor search
+• Designed domain-specific models: Healthcare (ICD-10), Legal (case law), Finance (ticker symbols) vocabularies
+• Deployed async Celery task queue for batch processing 1000s of transcriptions without blocking users
+• Technical Highlights: WebSocket streaming, Docker Compose (Postgres + Qdrant + Redis + RabbitMQ), observability
+
+4. TruthTracker (AntiAi) | Deepfake & Fake News Detection with Explainability
+Technologies: EfficientNet-B4, PyTorch, FastAPI, React TypeScript, Docker, LIME, GradCAM
+GitHub: github.com/HemantSudarshan/AntiAi
+
+• Architected production misinformation detection platform combining NLP + Computer Vision
+• Implemented ensemble learning (Logistic Regression + Random Forest + Gradient Boosting) for fake news detection
+• Integrated EfficientNet-B4 + MTCNN face detection for deepfake image analysis with 92%+ accuracy
+• Built explainable AI layer: LIME for text (word-level importance), GradCAM heatmaps for image regions
+• Designed React + TypeScript frontend with real-time confidence scores and interactive visualizations
+• Deployed containerized microservices with FastAPI backend, auto-generated Swagger docs at /docs
+• Aligned with IFCN fact-checking principles, training data from verified Indian fact-checkers
+
+5. AI Real Estate Agent | Multi-Agent Property Intelligence System
+Technologies: Gemini AI, Firecrawl API, Streamlit, SQLAlchemy, Redis, PostgreSQL, Pytest
+GitHub: github.com/HemantSudarshan/-AI-Powered-Real-Estate-Agent-Automating-Property-Search-Investment-Insights-
+
+• Developed 3-agent system: Search Agent (web scraping) → Investment Agent (ROI analysis) → Market Trends Agent
+• Integrated Firecrawl API for real-time property extraction from 99acres, Housing.com, Square Yards
+• Implemented Gemini AI for investment insights: ROI projections, rental yields, risk scoring, market predictions
+• Built Redis caching layer reducing API costs by 70% through intelligent query deduplication
+• Designed SQLAlchemy ORM with PostgreSQL for property persistence, search history, and user management
+• Created GitHub Actions CI/CD pipeline with automated testing (Pytest) and Ruff linting
+• Deployed with Docker Compose, Alembic migrations, and production health check endpoints
+
+Additional Projects:
+• Narrative Transformer: AI-powered story genre transformation with custom "Narrative Tension Index" metric
+• Vision-Audio Medical Chatbot: Multimodal healthcare assistant (voice + image analysis)
+• Audio-RAG-Analyzer: Audio content analysis with RAG pipeline
+• Healthcare ChatBot: Domain-specific healthcare assistant with privacy-focused NLP
+• LLM-Based PDF Processor: Intelligent PDF Q&A system
+• Text Summarizer: Advanced summarization using transformer models
+
+================================================================================
+PATENTS & PUBLICATIONS
+================================================================================
+
+Patent (Filed)
+"A System for Providing Security Using a Plurality of Factors for IoT Gadgets"
+Indian Patent Office | Application No. 202341040746
+
+Conference Paper
+"Discovering Insights into Heart Health: A Survey of Data Mining and Machine Learning Methods"
+Presented at International Conference on Computer and Intelligent Communication Technologies (ICCICCT 2023)
+IIT Kharagpur | ISBN Reference Available
+
+Research Paper (Accepted for Publication)
+"An Examination of Different Deep Learning Models for Transparent Identification of Tomato Leaf Diseases"
+Focus: Computer Vision, Agricultural AI, Transfer Learning
+
+================================================================================
+ACHIEVEMENTS & IMPACT
+================================================================================
+
+Production Deployment & User Impact
+✓ Deployed 6+ production-ready AI systems with active users on Hugging Face, Railway.app, and cloud platforms
+✓ Built RAG systems for Indic language localization serving 600M+ potential users across Hindi/Telugu/Kannada
+✓ Achieved 99.9% uptime with dual-model failover strategies and health monitoring
+✓ Reduced compliance research time from 20+ minutes to 2 seconds with zero-hallucination architecture
+
+Technical Excellence
+✓ Architected multi-agent systems with autonomous decision-making and human-in-loop validation
+✓ Implemented enterprise security standards: JWT auth, RBAC, rate limiting, audit logging, data isolation
+✓ Built production-grade observability: Prometheus metrics, LangSmith tracing, structured logging
+✓ Designed cost-efficient systems: 70% API cost reduction via Redis caching and batch processing
+
+Open Source Contribution
+✓ Published 20+ GitHub repositories with comprehensive documentation and live demos
+✓ Active contributor to AI community with 80+ CI/CD-integrated tests across projects
+✓ Shared deep technical blog posts and architectural insights on LinkedIn
+
+Research & Innovation
+✓ Invented "Narrative Tension Index" (NTI) metric for quantifying story engagement in AI-generated narratives
+✓ Published 1 patent and 2 research papers during undergraduate studies
+✓ Demonstrated end-to-end AI product development: business problem → research → architecture → deployment
+
+================================================================================
+CORE COMPETENCIES
+================================================================================
+
+AI System Architecture
+• Multi-Agent Systems (LangGraph orchestration, state management, autonomous workflows)
+• Retrieval-Augmented Generation (RAG) with citation-backed responses and hybrid search
+• Prompt Engineering (few-shot learning, chain-of-thought, confidence calibration)
+• Multimodal AI (Vision + Audio + Text fusion)
+
+Production AI Infrastructure
+• LLMOps: Prompt versioning, A/B testing, model evaluation (RAGAS), observability (LangSmith, Prometheus)
+• MLOps: CI/CD pipelines, Docker containerization, health monitoring, auto-scaling
+• Backend Development: FastAPI async APIs, rate limiting, authentication, database design
+• Cost Optimization: Caching strategies, batch processing, model selection trade-offs
+
+Domain Expertise
+• Enterprise Compliance (GDPR, CCPA, PCI-DSS, HIPAA)
+• Multilingual NLP for Indic Languages (Hindi/Telugu/Kannada)
+• Audio Intelligence (transcription, speaker diarization, semantic search)
+• Explainable AI (LIME, SHAP, GradCAM for trust and transparency)
+
+================================================================================
+AREAS OF INTEREST & CONTINUOUS LEARNING
+================================================================================
+
+Currently Exploring:
+• AI Agents & Multi-Agent Systems | Advanced Agentic Workflows with LangGraph
+• AI Security & Red Teaming | Prompt Injection Defense & Model Safety
+• Advanced RAG Techniques | Hybrid Search, Reranking, Query Decomposition
+• LLMOps at Scale | Distributed Tracing, Cost Attribution, Model Monitoring
+• Multilingual NLP | Cross-lingual Transfer Learning for Low-Resource Languages
+
+================================================================================
+POSITION SOUGHT
+================================================================================
+
+Target Roles:
+AI/ML Engineer | LLM Engineer | RAG Systems Developer | AI Agent Developer | LLMOps Engineer
+ML Engineer | AI Product Engineer | Founding AI Engineer | AI Research Engineer
+
+Work Preferences:
+Full-time opportunities | Remote/Hybrid | Bengaluru-based roles preferred
+Open to: Startups, Product Companies, Research Labs, Founding/Early-stage AI Teams
+
+Ideal Fit:
+Companies building production AI systems, LLM-powered products, multi-agent platforms, or enterprise AI solutions
+
+================================================================================
+WHY HIRE ME
+================================================================================
+
+✓ Production-First Mindset: 6+ deployed systems with real users, not just notebooks
+✓ Full-Stack AI: From business problem → architecture → deployment → monitoring
+✓ Enterprise-Ready: Security hardening, multi-tenancy, audit logs, compliance-aware design
+✓ Cost-Conscious: Proven track record of reducing API costs and optimizing inference
+✓ Fast Learner: Built diverse systems across healthcare, compliance, audio, real estate, inventory domains
+✓ Research + Execution: Academic rigor (1 patent, 2 papers) meets industry speed
+
+================================================================================
