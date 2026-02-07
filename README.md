@@ -56,15 +56,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=0,6,12,18,24&section=divider"/>
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HemantSudarshan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=ffffff&langs_count=8)](https://github.com/HemantSudarshan)
-
 <br><br>
 
-<a href="./resume/Hemant_Sudarshan_Resume.docx">
-  <img src="https://img.shields.io/badge/📥_Download_Resume-DOCX-2B579A?style=for-the-badge&logo=microsoftword&logoColor=white&logoWidth=20"/>
-</a>
-<a href="https://docs.google.com/document/d/1Z2lwX28cl2gKr4NPBTjbbQmfYQej7KXX/edit?usp=sharing&ouid=110089556607396754554&rtpof=true&sd=true">
-  <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white&logoWidth=20"/>
+<a href="https://drive.google.com/file/d/1VXJnk87jYFBVClNgkVgzd5vPYGCq--Jm/view?usp=sharing">
+  <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
 <br><br>
@@ -147,7 +142,7 @@
 
 <br>
 
-> **💡 Note:** Detailed technical deep dives for each of the top 3 featured projects below, written from an AI engineer and hiring manager perspective. Each includes problem statement, architecture diagrams, full tech stack analysis, and key technical decisions.
+> **💡 Note:** Detailed technical deep dives for the top 3 featured projects below — including architecture diagrams, tech stack analysis, and key technical decisions.
 
 <br>
 
@@ -1130,7 +1125,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ### Machine Learning Intern
 <img src="https://img.shields.io/badge/AppiVa_Software_Pvt_Ltd-FFD21E?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/NASSCOM_10K_Startup-EE4C2C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Aug_2023_–_Sep_2023-4285F4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Aug_2023_–_Nov_2023-4285F4?style=for-the-badge"/>
 
 - Built data preprocessing and analytics pipelines
 - Developed and optimized ML models for production
