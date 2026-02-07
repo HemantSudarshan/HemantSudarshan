@@ -58,7 +58,7 @@
 
 <br><br>
 
-<a href="https://drive.google.com/file/d/1VXJnk87jYFBVClNgkVgzd5vPYGCq--Jm/view?usp=sharing">
+<a href="https://docs.google.com/document/d/1S17dN8mGrhwgkMAgfhTjijXAitd3uxCh/edit?usp=sharing&ouid=110089556607396754554&rtpof=true&sd=true">
   <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
