@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+(MLOps+%26+LLMOps);🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+1+Publication)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+(MLOps+%26+LLMOps);🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+2+Publications)
 
 <br>
 
@@ -69,11 +69,11 @@
   <img src="https://img.shields.io/badge/⚡_AI_Operations-LLM_&_RAG-00D4AA?style=for-the-badge&labelColor=0D1117"/>
   <br><br>
   <img src="https://img.shields.io/badge/🚀_Systems-6+_Stable_Deployment_Ready_AI_Systems-8E75B2?style=for-the-badge&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_1_Publication-FFD21E?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_2_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
 </p>
 
 **AI Localization Consultant @ Pratilipi Comics**  
-*Aspiring: AI Engineer (MLOps, AIOps, LLMOps & Agents) | Recent CS Graduate @DSU Bangalore | 6+ AI Systems Built | 1 Patent + 1 Publication*
+*Aspiring: AI Engineer (MLOps, AIOps, LLMOps & Agents) | Recent CS Graduate @DSU Bangalore | 6+ AI Systems Built | 1 Patent + 2 Publications*
 
 </div>
 
@@ -95,7 +95,7 @@
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,docker,aws,pytorch,tensorflow&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,docker,mongodb,redis,react,pytorch,tensorflow&theme=dark" />
 
 <br><br>
 
@@ -200,7 +200,7 @@
 <tr>
 <td><img src="https://img.shields.io/badge/Research_+_Execution-FFD700?style=for-the-badge&logoColor=white"/></td>
 <td>Academic rigor meets industry speed</td>
-<td>1 Patent + 1 Publication</td>
+<td>1 Patent + 2 Publications</td>
 </tr>
 </table>
 
@@ -456,26 +456,14 @@ I am not just building models; I am building the *infrastructure* that makes the
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=24,30,6,12,18&section=divider"/>
 
-```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│                                                                              │
-│   ████  ████   ████     ██ ████  ████ ██████ ████                           │
-│   █  █  █  █  █    █    █  █     █      ██   █                              │
-│   ████  ████  █    █    █  ███   █      ██   ████                           │
-│   █     █  █  █    █ █  █  █     █      ██      █                           │
-│   █     █   █  ████   ██   ████  ████   ██   ████                           │
-│                                                                              │
-╰──────────────────────────────────────────────────────────────────────────────╯
-```
-
 </div>
 
 ---
 
 <div align="center">
 
-## 🚀 Project #1: Agentic Inventory Restocking Service
-**Multi-Agent AI System for Autonomous Inventory Management**
+## [Agentic Inventory Restocking Service](https://github.com/HemantSudarshan/Agentic-Inventory-Restocking-Service)
+**Multi-Agent AI System for Autonomous Inventory Management** &nbsp; [📂 Repo](https://github.com/HemantSudarshan/Agentic-Inventory-Restocking-Service) • [🚀 Live Demo](https://agentic-inventory-restocking-servic-production.up.railway.app/login)
 
 <img src="https://img.shields.io/badge/LangGraph-Orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white"/>
@@ -602,8 +590,8 @@ I am not just building models; I am building the *infrastructure* that makes the
 
 <div align="center">
 
-## 💼 Project #2: Compliance-GPT
-**Enterprise RAG System with Zero-Hallucination Citations**
+## [Compliance-GPT](https://github.com/HemantSudarshan/Compliance-GPT)
+**Enterprise RAG System with Zero-Hallucination Citations** &nbsp; [📂 Repo](https://github.com/HemantSudarshan/Compliance-GPT) • [🚀 Live Demo](https://huggingface.co/spaces/Hemantxai/compliance-gpt)
 
 <img src="https://img.shields.io/badge/Weaviate-00C9A7?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
@@ -721,8 +709,8 @@ User Query → FastAPI Endpoint (Rate Limited @ 30 req/min)
 
 <div align="center">
 
-## 🎙️ Project #3: AudioRAG Enterprise
-**AI Audio Analytics with Multi-Tenant Security & Domain Expertise**
+## [AudioRAG Enterprise](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
+**AI Audio Analytics with Multi-Tenant Security & Domain Expertise** &nbsp; [📂 Repo](https://github.com/HemantSudarshan/AudioRaG_FTSambanova)
 
 <img src="https://img.shields.io/badge/AssemblyAI-0066FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Qdrant-FF6B6B?style=for-the-badge"/>
@@ -929,7 +917,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,docker,aws,git,linux,rust,js,cpp,githubactions&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,docker,aws,git,linux,mongodb,redis,react,js,githubactions&theme=dark" />
 
 <br><br>
 
@@ -941,43 +929,58 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://github-profile-trophy.vercel.app/?username=HemantSudarshan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+### 🤖 LLMs & AI Models
+![OpenAI](https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_3.5-CC785C?style=for-the-badge)
+![Meta](https://img.shields.io/badge/Llama_3.1-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Google](https://img.shields.io/badge/Gemini_2.0-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![SambaNova](https://img.shields.io/badge/SambaNova-7C3AED?style=for-the-badge)
 
-<br><br>
+### 📁 RAG, Agents & Vector DBs
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=for-the-badge)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7C3AED?style=for-the-badge)
+![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7?style=for-the-badge)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC382D?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-000?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FFD700?style=for-the-badge)
 
-### 🤖 LLMs & Models
-![OpenAI](https://img.shields.io/badge/🗨️_GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/🧠_Claude_3.5-CC785C?style=for-the-badge)
-![Meta](https://img.shields.io/badge/🦙_Llama_3.1-0467DF?style=for-the-badge&logo=meta&logoColor=white)
-![Google](https://img.shields.io/badge/🔮_Gemini_2.0-8E75B2?style=for-the-badge&logo=google&logoColor=white)
+### 🚀 Backend & APIs
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-F97316?style=for-the-badge)
 
-### 📁 RAG & Vector DBs
-![LangChain](https://img.shields.io/badge/⛓️_LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/🦙_LlamaIndex-7C3AED?style=for-the-badge)
-![Weaviate](https://img.shields.io/badge/🔍_Weaviate-00C9A7?style=for-the-badge)
-![Qdrant](https://img.shields.io/badge/🎢_Qdrant-DC382D?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/🌲_Pinecone-000?style=for-the-badge)
+### 💾 Databases & Caching
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### 🚀 Production & DevOps
-![Python](https://img.shields.io/badge/🐍_Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/⚡_FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/🐳_Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/☁️_AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Streamlit](https://img.shields.io/badge/🌊_Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+### 🧠 ML & Deep Learning
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![AssemblyAI](https://img.shields.io/badge/AssemblyAI-0066FF?style=for-the-badge)
 
-### 💫 Additional Tech
-![JavaScript](https://img.shields.io/badge/🟨_JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/⚙️_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Rust](https://img.shields.io/badge/🦀_Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![SQL](https://img.shields.io/badge/📈_SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PyTorch](https://img.shields.io/badge/🔥_PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+### 🔧 DevOps & Deployment
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-00C7B7?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### 🔧 DevOps & MLOps
-![GitHub Actions](https://img.shields.io/badge/🔄_GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/🚀_CI/CD-00C7B7?style=for-the-badge&logo=jenkins&logoColor=white)
-![MLOps](https://img.shields.io/badge/🤖_MLOps-FF6F00?style=for-the-badge&logo=mlflow&logoColor=white)
-![System Design](https://img.shields.io/badge/🏗️_System_Design-4A154B?style=for-the-badge&logo=databricks&logoColor=white)
+### 💻 Languages & Tools
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
@@ -1019,8 +1022,8 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
-| [Audio-RAG-Analyzer](https://github.com/HemantSudarshan/Audio-RAG-Analyzer) | Audio content analysis with RAG | Python, Transformers |
-| [Audio-AI-Agent](https://github.com/HemantSudarshan/Audio-Ai-Agent) | Intelligent audio processing agent | AI Agents |
+| [Audio-RAG-Analyzer](https://github.com/HemantSudarshan/Audio-RAG-Analyzer) | Audio content analysis with RAG pipeline | Python, LlamaIndex, Transformers |
+| [Audio-AI-Agent](https://github.com/HemantSudarshan/Audio-Ai-Agent) | Intelligent audio processing agent | AI Agents, LangChain |
 
 </details>
 
@@ -1030,18 +1033,29 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
-| [Narrative Transformer](https://github.com/HemantSudarshan/narrative-transformer) | AI-powered story genre transformation with custom NTI metric | Transformers, LLMs |
+| [Narrative Transformer](https://github.com/HemantSudarshan/narrative-transformer) | AI-powered story genre transformation with custom NTI metric | OpenRouter API, LLMs, NLP |
 
 </details>
 
 <details>
-<summary><b>Healthcare AI</b></summary>
+<summary><b>Healthcare & Multimodal AI</b></summary>
 <br>
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
+| [Vision-Audio Medical Chatbot](https://github.com/HemantSudarshan/Vision-and-Audio-Based-Modern-Medical-Chatbot) | Multimodal healthcare AI combining medical image analysis + voice consultation | Vision AI, Speech Recognition, NLP |
 | [Healthcare_ChatBot](https://github.com/HemantSudarshan/Healthcare_ChatBot) | Domain-specific healthcare assistant | Python, NLP |
 | [HealthyfyMe](https://github.com/HemantSudarshan/HealthyfyMe) | Health and wellness application | Python, ML |
+
+</details>
+
+<details>
+<summary><b>Computer Vision & AI Safety</b></summary>
+<br>
+
+| Project | Description | Stack |
+|:--------|:------------|:------|
+| [AntiAI Platform](https://github.com/HemantSudarshan/AntiAi) | Deepfake detection + fake news verification system | PyTorch, EfficientNet-B4, Gradio, Computer Vision |
 
 </details>
 
