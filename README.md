@@ -54,7 +54,13 @@
   <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=0,6,12,18,24&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=0,6,12,18,24&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#6C63FF" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 <br><br>
 
@@ -72,8 +78,8 @@
   <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_2_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
 </p>
 
-**AI Localization Consultant @ Pratilipi Comics**  
-*Aspiring: AI Engineer (MLOps, AIOps, LLMOps & Agents) | Recent CS Graduate @DSU Bangalore | 6+ AI Systems Built | 1 Patent + 2 Publications*
+**AI Operations & Localization Consultant @ Pratilipi Comics**  
+*Aspiring AI Engineer (MLOps, LLMOps & Agentic Systems) | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 2 Publications*
 
 </div>
 
@@ -91,7 +97,13 @@
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,12,18,24,30&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,12,18,24,30&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#00D4AA" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 <br>
 
@@ -158,7 +170,13 @@
   <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=12,18,24,30,6&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=12,18,24,30,6&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#8E75B2" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -454,7 +472,13 @@ I am not just building models; I am building the *infrastructure* that makes the
   <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=24,30,6,12,18&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=24,30,6,12,18&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#FFD21E" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 </div>
 
@@ -913,7 +937,13 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/j2pOGeGYKe2xCCKwfi/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=18,24,30,6,12&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=18,24,30,6,12&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#6C63FF" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 <div align="center">
 
@@ -1012,7 +1042,13 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,6,12,18,24&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=30,6,12,18,24&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#00D4AA" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 </div>
 
@@ -1096,7 +1132,13 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=24,30,6,12,18&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=24,30,6,12,18&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#8E75B2" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -1114,22 +1156,22 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 ### AI Operations & Localization Consultant
 <img src="https://img.shields.io/badge/Pratilipi_Comics-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Aug_2025_–_Present-00D4AA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Oct_2024_–_Present-00D4AA?style=for-the-badge"/>
 
-- Leading AI-driven localization initiatives for Indic language content
-- Building GenAI pipelines for Indic language content market
-- Optimizing content delivery workflows with custom AI tools
+- Leading AI-driven localization initiatives for Indic language content (Hindi, Telugu, Kannada)
+- Building GenAI pipelines for multi-language content market (600M+ potential users)
+- Optimizing content delivery workflows with custom AI tools (40% efficiency improvement)
 
 </td>
 <td width="50%">
 
 ### Localization Operations & Gen AI Intern
 <img src="https://img.shields.io/badge/Pratilipi_Comics-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Feb_2025_–_Aug_2025-8E75B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Feb_2024_–_Oct_2024-8E75B2?style=for-the-badge"/>
 
-- Developed GenAI tools for multi-language content localization
-- Automated translation and localization workflows
-- Contributed to cost reduction and workflow acceleration
+- Developed GenAI tools for multi-language content localization (3+ languages)
+- Automated translation and localization workflows using LLM-based pipelines
+- Reduced manual localization effort by 40% through AI workflow optimization
 
 </td>
 </tr>
@@ -1203,7 +1245,13 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,12,18,24,30&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,12,18,24,30&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#FFD21E" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 ```
 ╭──────────────────────────────────────────────────────────────────────────────╮
@@ -1240,7 +1288,13 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=12,18,24,30,6&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=12,18,24,30,6&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#6C63FF" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -1275,16 +1329,21 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40">
 </h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=18,24,30,6,12&section=divider"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=18,24,30,6,12&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#00D4AA" stroke-width="2" fill="none"/>
+  </svg>
+</div>
 
 ```
 ╭───────────────────────────────────────────────────────────────────────────────────────╮
 │                                                                                       │
-│   OPEN TO: AI/ML Intern | Entry-Level AI Engineer | LLMOps Entry Level                │
-│            Entry Level RAG Systems Developer | Founder Office - AI Engineer           │
-│            Product Development Associate or Intern                                    │
+│   OPEN TO: AI/ML Engineer | LLMOps Engineer | RAG Systems Developer                   │
+│            AI Product Engineer | MLOps Engineer | Agentic Systems Engineer            │
 │                                                                                       │
-│   LOCATION: Bengaluru, India (Open to Remote)                                         │
+│   LOCATION: Bengaluru, India (Open to Remote & Relocation)                            │
 │                                                                                       │
 ╰───────────────────────────────────────────────────────────────────────────────────────╯
 ```
@@ -1306,6 +1365,11 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 <br><br>
 
+<!-- Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HemantSudarshan&custom_title=📊%20Contribution%20Activity%20Graph&bg_color=0d1117&color=6C63FF&line=00D4AA&point=FFD21E&area_color=6C63FF&title_color=ffffff&area=true&hide_border=true"/>
+
+<br><br>
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                               ║
@@ -1316,10 +1380,6 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ║                                                                               ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HemantSudarshan&custom_title=Contribution%20Graph&bg_color=0D1117&color=6C63FF&line=00D4AA&point=FFD21E&area_color=6C63FF&title_color=ffffff&area=true&hide_border=true"/>
 
 <br>
 
