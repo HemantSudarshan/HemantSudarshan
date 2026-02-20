@@ -1,11 +1,11 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D4AA,100:8E75B2&height=220&section=header&text=Hemant%20Sudarshan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Localization%20Consultant%20|%20Aspiring%20AI%20Engineer%20|%20LLMOps&descAlignY=55&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,50:00D4AA,100:8E75B2&height=220&section=header&text=Hemant%20Sudarshan&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Localization%20Consultant%20|%20Aspiring%20AI%20Engineer%20|%20Open%20Source%20Contributor&descAlignY=55&descSize=20"/>
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+(MLOps+%26+LLMOps);🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+2+Publications)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+%7C+Open+Source+Contributor;🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+2+Publications)
 
 <br>
 
@@ -64,7 +64,7 @@
 
 <br><br>
 
-<a href="https://drive.google.com/file/d/1VXJnk87jYFBVClNgkVgzd5vPYGCq--Jm/view?usp=sharing">
+<a href="https://docs.google.com/document/d/1S17dN8mGrhwgkMAgfhTjijXAitd3uxCh/edit?usp=sharing&ouid=110089556607396754554&rtpof=true&sd=true">
   <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
@@ -76,10 +76,12 @@
   <br><br>
   <img src="https://img.shields.io/badge/🚀_Systems-6+_Stable_Deployment_Ready_AI_Systems-8E75B2?style=for-the-badge&labelColor=0D1117"/>
   <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_2_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
+  <br><br>
+  <img src="https://img.shields.io/badge/🌍_Open_Source-Contributor-00D4AA?style=for-the-badge&labelColor=0D1117"/>
 </p>
 
 **AI Operations & Localization Consultant @ Pratilipi Comics**  
-*Aspiring AI Engineer (MLOps, LLMOps & Agentic Systems) | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 2 Publications*
+*Aspiring AI Engineer | Open Source Contributor | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 2 Publications*
 
 </div>
 
@@ -220,9 +222,117 @@
 <td>Academic rigor meets industry speed</td>
 <td>1 Patent + 2 Publications</td>
 </tr>
+<tr>
+<td><img src="https://img.shields.io/badge/Open_Source-00D4AA?style=for-the-badge&logoColor=white"/></td>
+<td>Performance refactors, docs fixes, dependency hygiene</td>
+<td>openclaw.ai (PR #37), Kreuzberg (PR #389 — Merged)</td>
+</tr>
 </table>
 
 </div>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png"/>
+
+<br>
+
+<div align="center">
+
+<h2>
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="40">
+  🌍 Open-Source Contributions
+  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="40">
+</h2>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=0,6,12,18,24&section=divider"/>
+  <br>
+  <svg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,10 L10,2 L20,10 L30,2 L40,10 L50,2 L60,10 L70,2 L80,10 L90,2 L100,10" stroke="#00D4AA" stroke-width="2" fill="none"/>
+  </svg>
+</div>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                    🔧 CONTRIBUTING TO THE ECOSYSTEM 🔧                        ║
+║                                                                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<div align="center">
+
+### 🔧 Refactor & Performance Optimization — [openclaw.ai](https://github.com/openclaw/openclaw.ai/commit/84114c5313da290a37a8dfb77456adf3671bdfb1)
+
+**Commit / PR #37** &nbsp; [🔗 View Commit](https://github.com/openclaw/openclaw.ai/commit/84114c5313da290a37a8dfb77456adf3671bdfb1)
+
+</div>
+
+Led a JavaScript refactor focused on performance, robustness, and dependency consistency across the openclaw.ai codebase.
+
+<table>
+<tr>
+<th width="33%">⚙️ Code & Architecture</th>
+<th width="33%">⚡ Performance</th>
+<th width="33%">🔒 DevOps & Dependency Hygiene</th>
+</tr>
+<tr>
+<td>
+
+- Replaced deprecated `navigator.platform` with `userAgentData`
+- Added comprehensive null checks across **23+ DOM operations**
+- Cached frequently queried DOM elements to eliminate repeated lookups
+- Removed dead code (`installCmds`, `osCmds` objects)
+- Improved clipboard copy logic with `execCommand` fallback and visual error feedback
+- Fixed Easter egg animation with null-safety wrapper
+
+</td>
+<td>
+
+- Eliminated **4 DOM queries** per state update cycle
+- Reduced bundle size by removing dead code (~13 lines)
+- Added user-visible feedback for clipboard failures
+
+</td>
+<td>
+
+- Removed redundant lock files (`package-lock.json`, `pnpm-lock.yaml`)
+- Standardized on `bun.lock` as the primary lock file
+- Updated `.gitignore` to prevent future dependency conflicts
+- Prevented dependency version mismatches across contributors
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+### 📦 Documentation Regression Fix — [Kreuzberg Repository](https://lnkd.in/g6Gi79p4)
+
+**Pull Request #389** &nbsp; [🔗 View PR](https://lnkd.in/g6Gi79p4) &nbsp; ![Merged](https://img.shields.io/badge/Status-Merged-6C63FF?style=flat-square)
+
+</div>
+
+Contributed a merged pull request to the Kreuzberg repository, resolving a documentation regression in the v3 → v4 migration guide. The issue stemmed from v3 examples incorrectly using v4 API syntax, creating ambiguity around function parity and sync vs. async behavior during upgrades.
+
+**Key Contributions**
+
+| Area | What Was Done |
+|------|--------------|
+| API Examples | Restored **11 v3 examples** to use the original API (`extract_file`, `batch_extract`) |
+| Sync/Async Parity | Corrected sync/async comparisons for accurate v3 ↔ v4 mapping |
+| Error Handling | Updated error-handling examples to reflect the proper exception hierarchy |
+| Code Quality | Replaced placeholder Python demos with real, executable output flows |
+| Docs Structure | Cleaned up stale migration artifacts and updated MkDocs navigation structure |
+
+> **Impact:** Improved migration determinism and reduced upgrade friction for developers integrating the library into production pipelines. Strengthened documentation accuracy — a critical layer for API trust, reliability, and adoption.
 
 <br>
 
@@ -445,8 +555,9 @@ I structure AI/ML projects through a rigorous, business-driven methodology that 
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                               ║
 ║     GOAL: Evolve into a full-fledged AI/ML Architect specializing in          ║
-║           AI Ops, MLOps, and LLMOps — building the stable, scalable           ║
-║           backends that power the next generation of AI systems.              ║
+║           AI Ops, MLOps, and Open-Source Engineering — building the            ║
+║           stable, scalable backends that power the next generation             ║
+║           of AI systems.                                                      ║
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -455,7 +566,7 @@ I structure AI/ML projects through a rigorous, business-driven methodology that 
 
 I am not just building models; I am building the *infrastructure* that makes them reliable. My roadmap focuses on:
 *   **AI Ops & Observability:** Mastering the art of monitoring, logging, and debugging complex AI pipelines in production.
-*   **LLM Ops:** Building robust evaluation frameworks and deployment pipelines for Large Language Models.
+*   **Open-Source Engineering:** Contributing performance refactors, documentation fixes, and tooling improvements to community-driven projects.
 *   **Scalable Backends:** Architecting distributed systems that can handle millions of inferences with high availability.
 
 <br>
@@ -924,6 +1035,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 - **System Design:** Multi-layered architectures that optimize for competing constraints (latency vs. consistency vs. cost)
 - **MLOps Discipline:** CI/CD pipelines, monitoring, evaluation frameworks, cost tracking
 - **Enterprise Thinking:** Multi-tenancy, security hardening, audit trails, compliance-ready design
+- **Open-Source Impact:** Performance refactors and documentation fixes contributed to community projects (openclaw.ai, Kreuzberg)
 
 <br>
 
@@ -1307,6 +1419,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 <img src="https://img.shields.io/badge/AI_Agents_&_Multi--Agent_Systems-6C63FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Advanced_Prompt_Engineering-00D4AA?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/AI_Security_&_Red_Teaming-EE4C2C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Open_Source_Contributions-181717?style=for-the-badge&logo=github&logoColor=white"/>
 
 <br>
 
@@ -1340,7 +1453,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ```
 ╭───────────────────────────────────────────────────────────────────────────────────────╮
 │                                                                                       │
-│   OPEN TO: AI/ML Engineer | LLMOps Engineer | RAG Systems Developer                   │
+│   OPEN TO: AI/ML Engineer | Open Source Contributor | RAG Systems Developer            │
 │            AI Product Engineer | MLOps Engineer | Agentic Systems Engineer            │
 │                                                                                       │
 │   LOCATION: Bengaluru, India (Open to Remote & Relocation)                            │
