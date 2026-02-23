@@ -64,7 +64,7 @@
 
 <br><br>
 
-<a href="https://docs.google.com/document/d/18EkPPGqQR8qrL5OfQ7ly2ypAOR_G32wi9ZMsHp8esag/edit?usp=sharing">
+<a href="https://docs.google.com/document/d/1Czzrn5meSF1K-uHH9Eauis6qXmP7ZPitZxNKR6GVJ0M/edit?usp=sharing">
   <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
@@ -1268,7 +1268,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 ### AI Operations & Localization Consultant
 <img src="https://img.shields.io/badge/Pratilipi_Comics-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Oct_2024_–_Present-00D4AA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Aug_2025_–_Present-00D4AA?style=for-the-badge"/>
 
 - Leading AI-driven localization initiatives for Indic language content (Hindi, Telugu, Kannada)
 - Building GenAI pipelines for multi-language content market (600M+ potential users)
@@ -1279,7 +1279,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 ### Localization Operations & Gen AI Intern
 <img src="https://img.shields.io/badge/Pratilipi_Comics-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Feb_2024_–_Oct_2024-8E75B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Feb_2025_–_Aug_2025-8E75B2?style=for-the-badge"/>
 
 - Developed GenAI tools for multi-language content localization (3+ languages)
 - Automated translation and localization workflows using LLM-based pipelines
