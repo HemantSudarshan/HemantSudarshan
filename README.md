@@ -64,7 +64,7 @@
 
 <br><br>
 
-<a href="https://docs.google.com/document/d/1S17dN8mGrhwgkMAgfhTjijXAitd3uxCh/edit?usp=sharing&ouid=110089556607396754554&rtpof=true&sd=true">
+<a href="https://docs.google.com/document/d/18EkPPGqQR8qrL5OfQ7ly2ypAOR_G32wi9ZMsHp8esag/edit?usp=sharing">
   <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
