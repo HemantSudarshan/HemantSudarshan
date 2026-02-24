@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+%7C+Open+Source+Contributor;🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+3+Publications)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+%7C+Open+Source+Contributor;🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+2+Publications)
 
 <br>
 
@@ -64,7 +64,7 @@
 
 <br><br>
 
-<a href="https://docs.google.com/document/d/1Czzrn5meSF1K-uHH9Eauis6qXmP7ZPitZxNKR6GVJ0M/edit?usp=sharing">
+<a href="https://docs.google.com/document/d/1bKRDQ8MDQagPTcxs9NVzZ1zbnK4cuGrRswAZ0JUZLas/edit?usp=sharing">
   <img src="https://img.shields.io/badge/👁️_View_Resume-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white&logoWidth=20"/>
 </a>
 
@@ -75,13 +75,13 @@
   <img src="https://img.shields.io/badge/⚡_AI_Operations-LLM_&_RAG-00D4AA?style=for-the-badge&labelColor=0D1117"/>
   <br><br>
   <img src="https://img.shields.io/badge/🚀_Systems-6+_Stable_Deployment_Ready_AI_Systems-8E75B2?style=for-the-badge&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_3_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_2_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
   <br><br>
   <img src="https://img.shields.io/badge/🌍_Open_Source-Contributor-00D4AA?style=for-the-badge&labelColor=0D1117"/>
 </p>
 
 **AI Operations & Localization Consultant @ Pratilipi Comics**  
-*Aspiring AI Engineer | Open Source Contributor | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 3 Publications*
+*Aspiring AI Engineer | Open Source Contributor | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 2 Publications*
 
 </div>
 
