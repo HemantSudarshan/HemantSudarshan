@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+%7C+Open+Source+Contributor;🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+2+Publications)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=800&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=120&lines=🚀+AI+Localization+Consultant+@+Pratilipi;⚡+Building+Production-Ready+AI+Systems;🎯+Aspiring+AI+Engineer+%7C+Open+Source+Contributor;🌟+6%2B+AI+Systems+Built+|+1+Patent+%2B+3+Publications)
 
 <br>
 
@@ -75,13 +75,13 @@
   <img src="https://img.shields.io/badge/⚡_AI_Operations-LLM_&_RAG-00D4AA?style=for-the-badge&labelColor=0D1117"/>
   <br><br>
   <img src="https://img.shields.io/badge/🚀_Systems-6+_Stable_Deployment_Ready_AI_Systems-8E75B2?style=for-the-badge&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_2_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/📚_Research-1_Patent_+_3_Publications-FFD21E?style=for-the-badge&labelColor=0D1117"/>
   <br><br>
   <img src="https://img.shields.io/badge/🌍_Open_Source-Contributor-00D4AA?style=for-the-badge&labelColor=0D1117"/>
 </p>
 
 **AI Operations & Localization Consultant @ Pratilipi Comics**  
-*Aspiring AI Engineer | Open Source Contributor | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 2 Publications*
+*Aspiring AI Engineer | Open Source Contributor | CS Graduate @DSU Bangalore | 6+ Production AI Systems | 1 Patent + 3 Publications*
 
 </div>
 
@@ -220,12 +220,12 @@
 <tr>
 <td><img src="https://img.shields.io/badge/Research_+_Execution-FFD700?style=for-the-badge&logoColor=white"/></td>
 <td>Academic rigor meets industry speed</td>
-<td>1 Patent + 2 Publications</td>
+<td>1 Patent + 3 Publications</td>
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/Open_Source-00D4AA?style=for-the-badge&logoColor=white"/></td>
 <td>Performance refactors, docs fixes, dependency hygiene</td>
-<td>openclaw.ai (PR #37), Kreuzberg (PR #389 — Merged)</td>
+<td>openclaw.ai (PR #37), Kreuzberg (PR #389), docling (PR #3022) — All Merged</td>
 </tr>
 </table>
 
@@ -333,6 +333,27 @@ Contributed a merged pull request to the Kreuzberg repository, resolving a docum
 | Docs Structure | Cleaned up stale migration artifacts and updated MkDocs navigation structure |
 
 > **Impact:** Improved migration determinism and reduced upgrade friction for developers integrating the library into production pipelines. Strengthened documentation accuracy — a critical layer for API trust, reliability, and adoption.
+
+---
+
+<div align="center">
+
+### 🐛 Bug Fix — [docling-project/docling](https://github.com/docling-project/docling) (IBM Open Source)
+
+**PR #3022** &nbsp; [🔗 View Pull Request](https://github.com/docling-project/docling/pull/3022) &nbsp; ✅ **Merged**
+
+</div>
+
+Fixed a crash in the DOCX parsing backend that caused complete document conversion failure for files containing internal bookmark hyperlinks (e.g., Table of Contents entries, cross-references).
+
+| 🔍 Root Cause Analysis | 🛡️ Defensive Fix | 🧪 Test Coverage |
+|---|---|---|
+| Identified a `TypeError` raised by `Path(c.address)` when `c.address` is `None` | Added a one-line conditional guard: `hyperlink = Path(c.address) if c.address else None` | Added regression test `test_hyperlink_with_none_address` |
+| Traced the issue to `python-docx` returning `None` for internal `w:anchor` hyperlinks (no `r:id`) | Downstream `hyperlink is None` logic already handled gracefully — zero new branches introduced | Programmatically constructs a DOCX with raw XML manipulation to reproduce the exact failure case |
+| Linked crash to the same Hyperlink handling block as the prior `IndexError` fix (issue #2367) | Fix follows the same defensive pattern already used for `c.runs` on the adjacent line | Asserts no exception raised and correct markdown text extraction |
+| Affected all DOCX files with TOC entries or cross-references — causing **complete parsing failure** | All 12 existing DOCX backend tests continue to pass unchanged | Contributed 57 lines across 2 files (`msword_backend.py` + `test_backend_msword.py`) |
+
+> **Impact:** Unblocked DOCX conversion for all documents containing internal bookmark hyperlinks (TOC, cross-references), restoring full parsing capability for an IBM open-source project used by the broader document AI community.
 
 <br>
 
@@ -1035,7 +1056,7 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 - **System Design:** Multi-layered architectures that optimize for competing constraints (latency vs. consistency vs. cost)
 - **MLOps Discipline:** CI/CD pipelines, monitoring, evaluation frameworks, cost tracking
 - **Enterprise Thinking:** Multi-tenancy, security hardening, audit trails, compliance-ready design
-- **Open-Source Impact:** Performance refactors and documentation fixes contributed to community projects (openclaw.ai, Kreuzberg)
+- **Open-Source Impact:** Performance refactors, documentation fixes, and bug fixes contributed to community projects (openclaw.ai, Kreuzberg, docling/IBM)
 
 <br>
 
@@ -1340,6 +1361,15 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 
 **Discovering Insights into Heart Health: A Survey of Data Mining and Machine Learning Methods**  
 *Presented at ICCICCT-2023 NICHE*
+
+<br>
+
+<img src="https://img.shields.io/badge/Journal-00D4AA?style=for-the-badge"/>
+
+**Survey of AI-Driven Platforms for Welfare and Emergency Services: Gaps, Architectures and the Case for Unified Systems**  
+*GRENZE International Journal of Engineering and Technology (GIJET), Vol. 11, Issue 2, Pages 9911–9916, 2025*  
+*Co-authors: Lavanya Ramkumar, Afsha R, Vinayaka VM*  
+[📄 View Publication](https://thegrenze.com/index.php?display=page&view=journalabstract&absid=5732&id=8)
 
 </div>
 

@@ -26,7 +26,10 @@ Thumbs.db
 *.bak
 create_*_resume.py
 
-# Old resume versions (keep only /resume folder)
+# Old resume versions
 Hemant_ResumeFinal1.pdf.pdf
 Hemant_Sudarshan_ATS_Resume.docx
 Hemant_Sudarshan_ATS_Resume.txt
+
+# Resume folder (kept locally only)
+resume/
