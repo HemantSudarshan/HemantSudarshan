@@ -224,8 +224,8 @@
 </tr>
 <tr>
 <td><img src="https://img.shields.io/badge/Open_Source-00D4AA?style=for-the-badge&logoColor=white"/></td>
-<td>Performance refactors, docs fixes, dependency hygiene</td>
-<td>openclaw.ai (PR #37), Kreuzberg (PR #389), docling (PR #3022) — All Merged</td>
+<td>Performance refactors, crash-safety, DX improvements, docs fixes</td>
+<td>lance (PR #5976), docling (PR #3022), vectorlitedb (PR #3), openclaw.ai (PR #37), Kreuzberg (PR #389) — All Merged</td>
 </tr>
 </table>
 
@@ -267,7 +267,109 @@
 
 <div align="center">
 
-### 🔧 Refactor & Performance Optimization — [openclaw.ai](https://github.com/openclaw/openclaw.ai/commit/84114c5313da290a37a8dfb77456adf3671bdfb1)
+### � DX & Error Handling Enhancement — [lance-format/lance](https://github.com/lancedb/lance)
+
+**Commit / PR #5976** &nbsp; [🔗 View PR](https://github.com/lancedb/lance/pull/5976) &nbsp; ✅ **Merged**
+
+</div>
+
+Implemented an inline, zero-dependency Levenshtein distance algorithm to provide smart, typo-tolerant field suggestions for schema errors in the Lance core, significantly improving developer experience.
+
+<table>
+<tr>
+<th width="50%">⚙️ Code & Architecture</th>
+<th width="50%">⚡ Performance & Optimization</th>
+</tr>
+<tr>
+<td>
+
+- Designed and implemented a custom `FieldNotFoundError` struct to manage missing schema fields gracefully
+- Added **lazy evaluation** for error suggestions, ensuring the Levenshtein distance is only computed when the error is actively rendered/displayed
+- Enhanced multiple core error sites (`FieldRef::into_id`, `Schema::do_project`, etc.) to provide intelligent *"Did you mean 'X'?"* suggestions alongside a list of available fields
+- Authored robust unit and integration tests covering the core distance algorithm, suggestion thresholds, edge cases, and schema projection error formatting
+
+</td>
+<td>
+
+- Engineered the Levenshtein distance algorithm inline using a highly memory-efficient **two-row Dynamic Programming (DP)** optimization
+- Prevented bloat by strictly avoiding external crate dependencies (like `strsim`), keeping the `lance-core` library lightweight
+- Configured a strict **1/3 edit-distance threshold** to ensure suggestions remain highly relevant and prevent CPU cycles from being wasted on unrelated field names
+
+</td>
+</tr>
+</table>
+
+> **Impact:** Transformed cryptic "field not found" errors into actionable, developer-friendly messages with intelligent suggestions — reducing debugging time for thousands of Lance/LanceDB users working with complex schemas.
+
+---
+
+<div align="center">
+
+### 🐛 Bug Fix — [docling-project/docling](https://github.com/docling-project/docling) (IBM Open Source)
+
+**PR #3022** &nbsp; [🔗 View Pull Request](https://github.com/docling-project/docling/pull/3022) &nbsp; ✅ **Merged**
+
+</div>
+
+Fixed a crash in the DOCX parsing backend that caused complete document conversion failure for files containing internal bookmark hyperlinks (e.g., Table of Contents entries, cross-references).
+
+| 🔍 Root Cause Analysis | 🛡️ Defensive Fix | 🧪 Test Coverage |
+|---|---|---|
+| Identified a `TypeError` raised by `Path(c.address)` when `c.address` is `None` | Added a one-line conditional guard: `hyperlink = Path(c.address) if c.address else None` | Added regression test `test_hyperlink_with_none_address` |
+| Traced the issue to `python-docx` returning `None` for internal `w:anchor` hyperlinks (no `r:id`) | Downstream `hyperlink is None` logic already handled gracefully — zero new branches introduced | Programmatically constructs a DOCX with raw XML manipulation to reproduce the exact failure case |
+| Linked crash to the same Hyperlink handling block as the prior `IndexError` fix (issue #2367) | Fix follows the same defensive pattern already used for `c.runs` on the adjacent line | Asserts no exception raised and correct markdown text extraction |
+| Affected all DOCX files with TOC entries or cross-references — causing **complete parsing failure** | All 12 existing DOCX backend tests continue to pass unchanged | Contributed 57 lines across 2 files (`msword_backend.py` + `test_backend_msword.py`) |
+
+> **Impact:** Unblocked DOCX conversion for all documents containing internal bookmark hyperlinks (TOC, cross-references), restoring full parsing capability for an IBM open-source project used by the broader document AI community.
+
+---
+
+<div align="center">
+
+### 🛡️ Reliability & Data Integrity — [vectorlitedb](https://github.com/vectorlite/vectorlitedb)
+
+**PR #3** &nbsp; [🔗 View Pull Request](https://github.com/vectorlite/vectorlitedb/pull/3) &nbsp; ✅ **Merged**
+
+</div>
+
+Implemented a robust, crash-safe atomic save pattern to completely eliminate the risk of database corruption and data loss during abrupt process terminations (e.g., OOM kills, power outages, or `KeyboardInterrupt`).
+
+<table>
+<tr>
+<th width="33%">⚙️ Code & Architecture</th>
+<th width="33%">💾 Data Integrity & I/O</th>
+<th width="33%">🎨 Code Hygiene</th>
+</tr>
+<tr>
+<td>
+
+- Replaced unsafe direct file writes (`'wb'`) with an atomic temporary-file write pattern (`.db.tmp`)
+- Implemented strict exception handling (`try...except BaseException`) to automatically clean up orphaned temporary files on any failure
+- Preserved **100% backward compatibility**: API signatures remained unchanged and the binary file format remained byte-for-byte identical
+
+</td>
+<td>
+
+- Added `os.fsync()` and `f.flush()` to force the operating system to flush buffers directly to disk
+- Utilized `os.replace()` to atomically swap the temporary file with the target database file, eliminating the corruption risk window
+- Maintained stability across the test suite, ensuring all **96 pytest cases** (including 10 data persistence tests) continued to pass seamlessly
+
+</td>
+<td>
+
+- Formatted the core `db.py` module using `black` to enforce the project's strict 88-character line length convention as defined in `pyproject.toml`
+
+</td>
+</tr>
+</table>
+
+> **Impact:** Eliminated the risk of database corruption during crash scenarios, ensuring zero data loss for all users of the vectorlitedb library — a critical reliability improvement for any embedded vector database.
+
+---
+
+<div align="center">
+
+### � Refactor & Performance Optimization — [openclaw.ai](https://github.com/openclaw/openclaw.ai/commit/84114c5313da290a37a8dfb77456adf3671bdfb1)
 
 **Commit / PR #37** &nbsp; [🔗 View Commit](https://github.com/openclaw/openclaw.ai/commit/84114c5313da290a37a8dfb77456adf3671bdfb1)
 
@@ -333,27 +435,6 @@ Contributed a merged pull request to the Kreuzberg repository, resolving a docum
 | Docs Structure | Cleaned up stale migration artifacts and updated MkDocs navigation structure |
 
 > **Impact:** Improved migration determinism and reduced upgrade friction for developers integrating the library into production pipelines. Strengthened documentation accuracy — a critical layer for API trust, reliability, and adoption.
-
----
-
-<div align="center">
-
-### 🐛 Bug Fix — [docling-project/docling](https://github.com/docling-project/docling) (IBM Open Source)
-
-**PR #3022** &nbsp; [🔗 View Pull Request](https://github.com/docling-project/docling/pull/3022) &nbsp; ✅ **Merged**
-
-</div>
-
-Fixed a crash in the DOCX parsing backend that caused complete document conversion failure for files containing internal bookmark hyperlinks (e.g., Table of Contents entries, cross-references).
-
-| 🔍 Root Cause Analysis | 🛡️ Defensive Fix | 🧪 Test Coverage |
-|---|---|---|
-| Identified a `TypeError` raised by `Path(c.address)` when `c.address` is `None` | Added a one-line conditional guard: `hyperlink = Path(c.address) if c.address else None` | Added regression test `test_hyperlink_with_none_address` |
-| Traced the issue to `python-docx` returning `None` for internal `w:anchor` hyperlinks (no `r:id`) | Downstream `hyperlink is None` logic already handled gracefully — zero new branches introduced | Programmatically constructs a DOCX with raw XML manipulation to reproduce the exact failure case |
-| Linked crash to the same Hyperlink handling block as the prior `IndexError` fix (issue #2367) | Fix follows the same defensive pattern already used for `c.runs` on the adjacent line | Asserts no exception raised and correct markdown text extraction |
-| Affected all DOCX files with TOC entries or cross-references — causing **complete parsing failure** | All 12 existing DOCX backend tests continue to pass unchanged | Contributed 57 lines across 2 files (`msword_backend.py` + `test_backend_msword.py`) |
-
-> **Impact:** Unblocked DOCX conversion for all documents containing internal bookmark hyperlinks (TOC, cross-references), restoring full parsing capability for an IBM open-source project used by the broader document AI community.
 
 <br>
 
@@ -1483,6 +1564,8 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ```
 ╭───────────────────────────────────────────────────────────────────────────────────────╮
 │                                                                                       │
+│   LEVEL:   Intern + Entry Level (Fresher)                                             │
+│                                                                                       │
 │   OPEN TO: AI/ML Engineer | Open Source Contributor | RAG Systems Developer            │
 │            AI Product Engineer | MLOps Engineer | Agentic Systems Engineer            │
 │                                                                                       │
@@ -1523,6 +1606,32 @@ These projects prove I don't just *use* AI tools—I **architect** systems that 
 ║                                                                               ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+
+<br>
+
+---
+
+<br>
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                       🚀 A NOTE TO STARTUP FOUNDERS 🚀                        ║
+║                                                                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+<br>
+
+> **Looking for a dynamic startup founder who needs a reliable, high-agency engineer to grow your venture with AI.**
+>
+> I don't just write code — I understand business goals, ship production-ready AI systems, and iterate fast. Whether it's building intelligent agents, RAG pipelines, or end-to-end ML infrastructure, I bring the technical depth *and* the startup hunger to make things happen.
+>
+> I'm looking for a founder whose ambition matches mine — someone building something meaningful, where I can grow alongside the company, own critical systems from day one, and turn AI from a buzzword into a genuine competitive advantage.
+>
+> **If that sounds like you, let's talk.** 🤝
+>
+> 📧 [collabwithhemantgenai@gmail.com](mailto:collabwithhemantgenai@gmail.com) &nbsp; | &nbsp; 💼 [LinkedIn](https://linkedin.com/in/hemant-sudarshan-01633928a)
 
 <br>
 
